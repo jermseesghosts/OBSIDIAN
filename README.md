@@ -668,7 +668,7 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 
 *Classification: Internal — Engineering*
 
-```
+
 Phase 0 complete. Phase 1A active.
 The document operating system exists before the code.
 The architecture is specified before the implementation.
@@ -676,7 +676,7 @@ The constitution is written before the first trade.
 
 OBSIDIAN is not a product. It is infrastructure.
 The kind that compounds.
-```
+
 
 `Classified` &nbsp;·&nbsp; `Internal` &nbsp;·&nbsp; `Eyes Only`
 
