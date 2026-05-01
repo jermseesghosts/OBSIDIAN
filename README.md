@@ -102,7 +102,7 @@ Every thesis that reaches conviction has survived eight independent analytical l
 
 ## The Five Constitutional Laws
 
-
+```
 LAW 1   CAPITAL PROTECTION
         No position > 5% of portfolio. No sector > 20%.
         8% portfolio drawdown: all new positions halted until operator resets.
@@ -123,7 +123,7 @@ LAW 5   HUMAN COMMAND AUTHORITY
         OBSIDIAN does not execute autonomously. Every trade requires
         a Decision Package, operator authorization, and OBSIDIAN routing
         the authorized order. The human is always in the loop.
-
+```
 
 ---
 
@@ -133,11 +133,11 @@ Beneath the Glass Room operates a classified subsystem architecture — the Ghos
 
 What the operator observes from the Ghost Layer:
 
-
+```
 "Constitutional adjustment applied at Lamport 4,847"
 "VEIL active — reasoning classified · Lamport 4,848"
 "Mirror Court discrepancy logged — HIGH · Lamport 4,851"
-
+```
 
 What the Ghost Layer contains is documented in VEIL.md — ARBITER clearance required. The Ghost Layer evolves the Glass Room continuously from its own outcome history, maintains an internal epistemic adversary (Mirror Court), defends against manufactured signal environments (Recursive NIGHTMARE), and enforces invariants at the kernel level (Aegis).
 
@@ -149,7 +149,7 @@ The Ghost Layer's reasoning is classified. Its integrity is cryptographically pr
 
 Every Decision Package is independently verifiable. An auditor can prove that the exact sensor events, Glass Room verdicts, and constitutional checks that produced a given package are exactly as reported — without access to OBSIDIAN's internal state.
 
-
+```
 DEED CHAIN      Append-only audit log. Every deliberation event hashed
                 into a chain: SHA-256(prev_hash || event || lamport_tick)
 
@@ -161,7 +161,7 @@ SCAR CHAIN      Outcome attribution. Every closed position linked
 
 CONSTITUTIONAL  Every REDLINE, BURN NOTICE, Ghost Layer amendment, and
 CHAIN           Aegis check. Permanent. Never pruned. Never modified.
-
+```
 
 Every Decision Package closes with a **VAE certificate** — 12 characters proving the package's provenance chain is intact and all constitutional checks passed. Format: `VAE-a3f8c2d91b4e`
 
@@ -177,7 +177,7 @@ A morning intelligence brief. Not a signal alert. Situational awareness: current
 
 Not an alert. A structured investment case:
 
-
+```
 OBSIDIAN · DECISION PACKAGE
 PKG-20260501-001 · 10:23 ET
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -212,7 +212,7 @@ FALSIFICATION CONDITIONS
 Reply /authorize to execute · 30-minute window
 VAE: a3f8c2d91b4e · Lamport: 4,923
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+```
 
 **Maximum 5 Decision Packages per trading day.** This is a hard architectural ceiling — not a guideline. A day with zero packages is correct behavior when no thesis earns conviction.
 
@@ -220,7 +220,7 @@ VAE: a3f8c2d91b4e · Lamport: 4,923
 
 ## The Intelligence Stack
 
-
+```
 Inference           Claude Sonnet (claude-sonnet-4-20250514)
                     Primary inference for Glass Room deliberation,
                     ARBITER synthesis, and Decision Package generation.
@@ -252,7 +252,7 @@ Operator Channel    Telegram Bot API
 
 Classified          VEIL.md — Ghost Layer subsystem doctrine
                     ARBITER clearance required.
-
+```
 
 ---
 
@@ -260,7 +260,7 @@ Classified          VEIL.md — Ghost Layer subsystem doctrine
 
 OBSIDIAN is governed by ten founding documents. Every build session reads them. Every architectural change is documented in them. No code is written without them.
 
-
+```
 CLAUDE.md                  Four governing axioms. The mission. The posture.
 ARCHITECTURE.md            Five Laws. Eight invariants. Glass Room. Ghost Layer.
 DATA_SOURCES.md            Four source contracts. Trust weights. Failure modes.
@@ -272,6 +272,7 @@ COMMUNICATION_CONTRACT.md  Every message OBSIDIAN sends. Locked formats. Canary 
 DEFERRED_INTELLIGENCE.md   Future capability queue. Trigger conditions. Build order.
 VEIL.md                    Ghost Layer doctrine. ARBITER clearance only.
                            [This file does not appear in the public repository.]
+```
 
 A session that generates code before reading the governing documents has already made an error that no amount of correct syntax will fix.
 
@@ -279,7 +280,7 @@ A session that generates code before reading the governing documents has already
 
 ## Build Sequence
 
-
+```
 Phase 0    Document Operating System                    ✓ COMPLETE
 Phase 1A   Sensor Mesh Ingestion                        ← ACTIVE
 Phase 1B   Supabase Schema + Cryptographic Chains
@@ -297,6 +298,7 @@ Phase 3A   Advanced Intelligence + Ghost Layer activation
            Mirror Court · Recursive NIGHTMARE · Reflexivity Index
 Phase 3B   Aegis Kernel (Rust) + Supervised Autonomy
            (both require DECISIONS.md entries)
+```
 
 Each phase has defined pre-conditions, a capability cluster, mandatory named tests, exit criteria, and forensic demonstrations required before the next phase is authorized. A phase is COMPLETE or IN PROGRESS. Nothing in between.
 
@@ -324,7 +326,7 @@ The trigger conditions are not obstacles. They are the architecture. A system bu
 
 ## Security Event Codes
 
-
+```
 OBSIDIAN-SEC-001   Council participation below minimum — deliberation aborted
 OBSIDIAN-SEC-002   PHANTOM + SPECTER consensus — second deliberation triggered
 OBSIDIAN-SEC-003   Unsourced claim in Decision Package — package rejected
@@ -333,7 +335,7 @@ OBSIDIAN-SEC-005   Execution routed without operator authorization — immediate
 OBSIDIAN-SEC-006   Portfolio drawdown threshold breached — all positions halted
 OBSIDIAN-SEC-007   State not recoverable from Supabase — OBSIDIAN halted
 OBSIDIAN-SEC-008   Daily package ceiling reached — no further packages this session
-
+```
 
 ---
 
@@ -379,5 +381,6 @@ OBSIDIAN-SEC-008   Daily package ceiling reached — no further packages this se
 
 OBSIDIAN is not a product. It is infrastructure.
 The kind that compounds.
+
 
 </div>
