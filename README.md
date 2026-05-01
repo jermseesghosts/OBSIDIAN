@@ -66,7 +66,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │               Real-time intelligence at the edge                │
 │                                                                 │
 │  Core:       Unusual Whales · Polygon · Alpaca · GEX Engine     │
-│  Reference:  Finnhub · FMP · FRED · Quiver · CBOE              │
+│  Reference:  Finnhub · FMP · FRED · Quiver · CBOE               │
 │              Kalshi · SEC EDGAR · FINRA · BLS                   │
 │                                                                 │
 │  Raw ingestion. No interpretation. Every event logged.          │
@@ -95,7 +95,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │              Operator interface and execution                   │
 │                                                                 │
 │  42 message types · Telegram · Authorization · Alpaca           │
-│  DEAD DROP 0600 · NIGHT WATCH 1600 · BURN NOTICE               │
+│  DEAD DROP 0600 · NIGHT WATCH 1600 · BURN NOTICE                │
 │  REDLINE Protocol · Portfolio Health · VAE Certificate          │
 │                                                                 │
 │  OBSIDIAN speaks here. Nowhere else.                            │
