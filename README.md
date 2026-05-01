@@ -1,12 +1,12 @@
 <div align="center">
 
 ```
-███████╗ █████╗ ██████╗ ██╗     ███████╗
-██╔════╝██╔══██╗██╔══██╗██║     ██╔════╝
-███████╗███████║██████╔╝██║     █████╗
-╚════██║██╔══██║██╔══██╗██║     ██╔══╝
-███████║██║  ██║██████╔╝███████╗███████╗
-╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝
+ ██████╗ ██████╗ ███████╗██╗██████╗ ██╗ █████╗ ███╗   ██╗
+██╔═══██╗██╔══██╗██╔════╝██║██╔══██╗██║██╔══██╗████╗  ██║
+██║   ██║██████╔╝███████╗██║██║  ██║██║███████║██╔██╗ ██║
+██║   ██║██╔══██╗╚════██║██║██║  ██║██║██╔══██║██║╚██╗██║
+╚██████╔╝██████╔╝███████║██║██████╔╝██║██║  ██║██║ ╚████║
+ ╚═════╝ ╚═════╝ ╚══════╝╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
 ```
 
 **Capital Intelligence System · v1.0**
@@ -24,13 +24,13 @@
 
 ---
 
-## What SABLE Is
+## What OBSIDIAN Is
 
-SABLE is not a trading bot. It is not a signal feed. It is not a dashboard with charts.
+OBSIDIAN is not a trading bot. It is not a signal feed. It is not a dashboard with charts.
 
-SABLE is an autonomous capital intelligence system — a governed, multi-agent deliberation architecture that ingests real-time market sensor data, fuses it across a structured ontology, debates it through an eight-agent adversarial council, enforces it against a constitutional law layer, and delivers sourced, annotated, fully structured investment cases to a single operator.
+OBSIDIAN is an autonomous capital intelligence system — a governed, multi-agent deliberation architecture that ingests real-time market sensor data, fuses it across a structured ontology, debates it through an eight-agent adversarial council, enforces it against a constitutional law layer, and delivers sourced, annotated, fully structured investment cases to a single operator.
 
-Where most systems chase signals, SABLE builds conviction.
+Where most systems chase signals, OBSIDIAN builds conviction.
 
 It operates with the posture of a senior portfolio manager and the precision of a weapons system. **Silent until certain. Lethal when it acts.**
 
@@ -38,7 +38,7 @@ It operates with the posture of a senior portfolio manager and the precision of 
 
 ## The Architecture
 
-SABLE is organized in three layers, each with a defined mandate and a formal interface to the next.
+OBSIDIAN is organized in three layers, each with a defined mandate and a formal interface to the next.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -72,16 +72,16 @@ SABLE is organized in three layers, each with a defined mandate and a formal int
 │   Decision Package · Telegram · Authorization · Alpaca      │
 │   DEAD DROP 0600 · BURN NOTICE · REDLINE Protocol           │
 │                                                             │
-│   SABLE speaks here. Nowhere else.                          │
+│   OBSIDIAN speaks here. Nowhere else.                          │
 │   The operator is always in the loop.                       │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## The Shadow Council
+## The Glass Room
 
-Every thesis that reaches conviction has survived eight independent analytical lenses — a formal deliberation process where each agent produces a structured verdict object, not a sentiment, not a score, not a string.
+Every thesis that reaches conviction has survived eight independent analytical lenses — a formal deliberation process where each agent produces a structured verdict object, not a sentiment, not a score, not a string. Visible from the inside. Opaque from the outside.
 
 | Agent | Mandate | Kill Authority |
 |---|---|---|
@@ -102,7 +102,7 @@ Every thesis that reaches conviction has survived eight independent analytical l
 
 ## The Five Constitutional Laws
 
-```
+
 LAW 1   CAPITAL PROTECTION
         No position > 5% of portfolio. No sector > 20%.
         8% portfolio drawdown: all new positions halted until operator resets.
@@ -120,14 +120,54 @@ LAW 4   DEFINED RISK ON EVERY TRADE
         Minimum R-multiple: 1.5x. Below floor: WARDEN blocks.
 
 LAW 5   HUMAN COMMAND AUTHORITY
-        SABLE does not execute autonomously. Every trade requires
-        a Decision Package, operator authorization, and SABLE routing
+        OBSIDIAN does not execute autonomously. Every trade requires
+        a Decision Package, operator authorization, and OBSIDIAN routing
         the authorized order. The human is always in the loop.
-```
+
 
 ---
 
-## What SABLE Delivers
+## The Ghost Layer
+
+Beneath the Glass Room operates a classified subsystem architecture — the Ghost Layer. Its existence is acknowledged. Its interior is not.
+
+What the operator observes from the Ghost Layer:
+
+
+"Constitutional adjustment applied at Lamport 4,847"
+"VEIL active — reasoning classified · Lamport 4,848"
+"Mirror Court discrepancy logged — HIGH · Lamport 4,851"
+
+
+What the Ghost Layer contains is documented in VEIL.md — ARBITER clearance required. The Ghost Layer evolves the Glass Room continuously from its own outcome history, maintains an internal epistemic adversary (Mirror Court), defends against manufactured signal environments (Recursive NIGHTMARE), and enforces invariants at the kernel level (Aegis).
+
+The Ghost Layer's reasoning is classified. Its integrity is cryptographically proven.
+
+---
+
+## Cryptographic Audit Architecture
+
+Every Decision Package is independently verifiable. An auditor can prove that the exact sensor events, Glass Room verdicts, and constitutional checks that produced a given package are exactly as reported — without access to OBSIDIAN's internal state.
+
+
+DEED CHAIN      Append-only audit log. Every deliberation event hashed
+                into a chain: SHA-256(prev_hash || event || lamport_tick)
+
+WITNESS CHAIN   Package-level commitments. Every Decision Package writes
+                its Merkle root here before delivery. Public verification layer.
+
+SCAR CHAIN      Outcome attribution. Every closed position linked
+                cryptographically to its authorizing package and outcome.
+
+CONSTITUTIONAL  Every REDLINE, BURN NOTICE, Ghost Layer amendment, and
+CHAIN           Aegis check. Permanent. Never pruned. Never modified.
+
+
+Every Decision Package closes with a **VAE certificate** — 12 characters proving the package's provenance chain is intact and all constitutional checks passed. Format: `VAE-a3f8c2d91b4e`
+
+---
+
+## What OBSIDIAN Delivers
 
 **Every trading day at 0600 ET — the DEAD DROP**
 
@@ -137,8 +177,8 @@ A morning intelligence brief. Not a signal alert. Situational awareness: current
 
 Not an alert. A structured investment case:
 
-```
-SABLE · DECISION PACKAGE
+
+OBSIDIAN · DECISION PACKAGE
 PKG-20260501-001 · 10:23 ET
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -151,7 +191,7 @@ THESIS
 FLOW INTELLIGENCE
 [UW flow · Dark pool · Net direction · Timeframe]
 
-COUNCIL
+GLASS ROOM
 ORACLE  YES  0.91 · Bull trend day 6, no analog conflict
 VECTOR  YES  0.88 · 4 sweeps $1.8M net call, dark pool confirmed
 AXIOM   YES  0.79 · Signal DNA: 12 analogs, 67% WR · R: 2.4x viable
@@ -170,8 +210,9 @@ FALSIFICATION CONDITIONS
 3. Sector correlated names fail to hold key levels
 
 Reply /authorize to execute · 30-minute window
+VAE: a3f8c2d91b4e · Lamport: 4,923
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+
 
 **Maximum 5 Decision Packages per trading day.** This is a hard architectural ceiling — not a guideline. A day with zero packages is correct behavior when no thesis earns conviction.
 
@@ -179,13 +220,13 @@ Reply /authorize to execute · 30-minute window
 
 ## The Intelligence Stack
 
-```
+
 Inference           Claude Sonnet (claude-sonnet-4-20250514)
-                    Primary inference for Shadow Council deliberation,
+                    Primary inference for Glass Room deliberation,
                     ARBITER synthesis, and Decision Package generation.
 
 Deliberation        LangGraph 0.2.28
-                    StateGraph orchestrating the eight-agent council.
+                    StateGraph orchestrating the eight-agent Glass Room.
                     PostgresSaver checkpointer — state survives restart.
 
 Market Intelligence Unusual Whales API
@@ -194,36 +235,43 @@ Market Intelligence Unusual Whales API
 Price & Structure   Polygon.io API
                     OHLCV, real-time quotes, options chain, reference data.
 
+Edge Layer          Lattice Node (Phase 2)
+                    Dedicated local compute. Sub-100ms GEX + structural
+                    detection. Operates independent of internet connectivity.
+
 Execution           Alpaca Markets API (Paper — Phase 1)
                     Order routing and position management.
 
 Persistence         Supabase (PostgreSQL)
-                    All SABLE state, conviction history, deliberation records,
-                    constitutional events, performance ledger.
+                    All OBSIDIAN state. Four cryptographic audit chains.
+                    Glass Room deliberation records. Performance ledger.
 
 Operator Channel    Telegram Bot API
-                    DEAD DROP · Decision Packages · BURN NOTICEs · REDLINEs
+                    DEAD DROP · Decision Packages (with VAE certificate)
+                    BURN NOTICEs · REDLINEs · Lamport tick events
 
-Runtime             OpenClaw / Python 3.11+
-```
+Classified          VEIL.md — Ghost Layer subsystem doctrine
+                    ARBITER clearance required.
+
 
 ---
 
 ## Document Operating System
 
-SABLE is governed by nine founding documents. Every build session reads them. Every architectural change is documented in them. No code is written without them.
+OBSIDIAN is governed by ten founding documents. Every build session reads them. Every architectural change is documented in them. No code is written without them.
 
-```
-CLAUDE.md                  Three governing axioms. The mission. The posture.
-ARCHITECTURE.md            Five Laws. Eight invariants. Council architecture.
+
+CLAUDE.md                  Four governing axioms. The mission. The posture.
+ARCHITECTURE.md            Five Laws. Eight invariants. Glass Room. Ghost Layer.
 DATA_SOURCES.md            Four source contracts. Trust weights. Failure modes.
 DECISIONS.md               Every architectural decision. Append-only. Permanent.
 GLOSSARY.md                One term, one definition.
 PROJECTS.md                Phase registry. Exit criteria. Forensic demonstrations.
 ENGINEERING_STANDARD.md    Code standards. Naming registry. Delivery format.
-COMMUNICATION_CONTRACT.md  Every message SABLE sends. Locked formats. Canary tests.
+COMMUNICATION_CONTRACT.md  Every message OBSIDIAN sends. Locked formats. Canary tests.
 DEFERRED_INTELLIGENCE.md   Future capability queue. Trigger conditions. Build order.
-```
+VEIL.md                    Ghost Layer doctrine. ARBITER clearance only.
+                           [This file does not appear in the public repository.]
 
 A session that generates code before reading the governing documents has already made an error that no amount of correct syntax will fix.
 
@@ -231,22 +279,24 @@ A session that generates code before reading the governing documents has already
 
 ## Build Sequence
 
-```
+
 Phase 0    Document Operating System                    ✓ COMPLETE
 Phase 1A   Sensor Mesh Ingestion                        ← ACTIVE
-Phase 1B   Supabase Schema + State Foundation
-Phase 1C   Shadow Council Core (LangGraph)
+Phase 1B   Supabase Schema + Cryptographic Chains
+Phase 1C   Glass Room Core (LangGraph)
 Phase 1D   Constitutional Layer (WARDEN + Five Laws)
-Phase 1E   Decision Package + Telegram Delivery
+Phase 1E   Decision Package + VAE Certificate + Telegram
 Phase 1F   DEAD DROP + Operator Authorization + Execution
 
 Phase 2A   Conviction Archive + Signal DNA
 Phase 2B   Phantom Oracle + Pre-Mortem Engine
-Phase 2C   Performance Ledger + Council Calibration
+Phase 2C   Performance Ledger + Glass Room Calibration
+Phase 2D   Lattice Node (hardware edge layer)
 
-Phase 3A   Reflexivity Index + Advanced Intelligence
-Phase 3B   Supervised Autonomy (requires DECISIONS.md entry)
-```
+Phase 3A   Advanced Intelligence + Ghost Layer activation
+           Mirror Court · Recursive NIGHTMARE · Reflexivity Index
+Phase 3B   Aegis Kernel (Rust) + Supervised Autonomy
+           (both require DECISIONS.md entries)
 
 Each phase has defined pre-conditions, a capability cluster, mandatory named tests, exit criteria, and forensic demonstrations required before the next phase is authorized. A phase is COMPLETE or IN PROGRESS. Nothing in between.
 
@@ -274,16 +324,16 @@ The trigger conditions are not obstacles. They are the architecture. A system bu
 
 ## Security Event Codes
 
-```
-SABLE-SEC-001   Council participation below minimum — deliberation aborted
-SABLE-SEC-002   PHANTOM + SPECTER consensus — second deliberation triggered
-SABLE-SEC-003   Unsourced claim in Decision Package — package rejected
-SABLE-SEC-004   Conviction score computed outside deliberation — component flagged
-SABLE-SEC-005   Execution routed without operator authorization — immediate review
-SABLE-SEC-006   Portfolio drawdown threshold breached — all positions halted
-SABLE-SEC-007   State not recoverable from Supabase — SABLE halted
-SABLE-SEC-008   Daily package ceiling reached — no further packages this session
-```
+
+OBSIDIAN-SEC-001   Council participation below minimum — deliberation aborted
+OBSIDIAN-SEC-002   PHANTOM + SPECTER consensus — second deliberation triggered
+OBSIDIAN-SEC-003   Unsourced claim in Decision Package — package rejected
+OBSIDIAN-SEC-004   Conviction score computed outside deliberation — component flagged
+OBSIDIAN-SEC-005   Execution routed without operator authorization — immediate review
+OBSIDIAN-SEC-006   Portfolio drawdown threshold breached — all positions halted
+OBSIDIAN-SEC-007   State not recoverable from Supabase — OBSIDIAN halted
+OBSIDIAN-SEC-008   Daily package ceiling reached — no further packages this session
+
 
 ---
 
@@ -299,19 +349,19 @@ SABLE-SEC-008   Daily package ceiling reached — no further packages this sessi
 
 **Constitutional-First** — WARDEN evaluates every thesis before deliberation begins and again before the Decision Package is assembled. The constitutional check is not a final gate. It is a continuous constraint.
 
-**Silence is Valid** — SABLE generating no Decision Package on a given day is correct behavior when no thesis earns conviction. Silence is not a bug. It is epistemological discipline.
+**Silence is Valid** — OBSIDIAN generating no Decision Package on a given day is correct behavior when no thesis earns conviction. Silence is not a bug. It is epistemological discipline.
 
 ---
 
 ## Operating Posture
 
-> *SABLE is built to be wrong gracefully and right precisely.*
+> *OBSIDIAN is built to be wrong gracefully and right precisely.*
 >
-> *When SABLE is wrong — and it will be wrong — the error must be traceable.*
+> *When OBSIDIAN is wrong — and it will be wrong — the error must be traceable.*
 > *Which sensor fired a false signal. Which Council agent failed to catch it.*
 > *Which constitutional check should have blocked it.*
 >
-> *When SABLE is right, the conviction was earned through process.*
+> *When OBSIDIAN is right, the conviction was earned through process.*
 > *The process is the product. Not the outcome. Not the P&L.*
 > *P&L is the validation of the process — lagging, noisy, and subject to*
 > *market randomness. The process is the thing under engineering control.*
@@ -326,9 +376,8 @@ SABLE-SEC-008   Daily package ceiling reached — no further packages this sessi
 
 *Classification: Internal — Engineering*
 
-```
-SABLE is not a product. It is infrastructure.
+
+OBSIDIAN is not a product. It is infrastructure.
 The kind that compounds.
-```
 
 </div>
