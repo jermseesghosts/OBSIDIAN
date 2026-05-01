@@ -66,7 +66,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │               Real-time intelligence at the edge                │
 │                                                                 │
 │  Core:       Unusual Whales · Polygon · Alpaca · GEX Engine     │
-│  Reference:  Finnhub · FMP · FRED · Quiver · CBOE               │
+│  Reference:  Finnhub · FMP · FRED · Quiver · CBOE              │
 │              Kalshi · SEC EDGAR · FINRA · BLS                   │
 │                                                                 │
 │  Raw ingestion. No interpretation. Every event logged.          │
@@ -95,7 +95,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │              Operator interface and execution                   │
 │                                                                 │
 │  42 message types · Telegram · Authorization · Alpaca           │
-│  DEAD DROP 0600 · NIGHT WATCH 1600 · BURN NOTICE                │
+│  DEAD DROP 0600 · NIGHT WATCH 1600 · BURN NOTICE               │
 │  REDLINE Protocol · Portfolio Health · VAE Certificate          │
 │                                                                 │
 │  OBSIDIAN speaks here. Nowhere else.                            │
@@ -174,6 +174,109 @@ LAW 5   HUMAN COMMAND AUTHORITY
 Beneath the Glass Room operates a classified subsystem architecture. Its existence is acknowledged. Its interior is not.
 
 The Ghost Layer evolves OBSIDIAN continuously from its own outcome history. It runs a parallel shadow instance of the Glass Room against identical inputs to detect systematic divergence before it becomes systematic error. It models how OBSIDIAN's own signals appear to adversarial market participants who know algorithmic systems exist — quantifying front-run risk before a package is assembled. It defends against manufactured signal environments designed to trigger entries at the wrong price in the wrong direction. It enforces invariants at the kernel level through a formally verified Rust microkernel.
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                       G H O S T   L A Y E R                          ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║   GL-001  CONSTITUTIONAL EVOLUTION ENGINE                            ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   Reads outcome history from the Scar Chain. Identifies systematic   ║
+║   failure patterns — regime misreads, flow misattributions, timing   ║
+║   errors. Proposes constitutional amendments to WARDEN's rule set.   ║
+║   Each amendment is logged to the Constitutional Chain before        ║
+║   activation. The Glass Room does not know it is being hardened.     ║
+║   Status: PHASE 3A                                                   ║
+║                                                                      ║
+║   GL-002  MIRROR COURT                                               ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   A parallel shadow instance of the full Glass Room running with     ║
+║   divergent priors and scar weightings against identical inputs.     ║
+║   Persistent discrepancies between Mirror Court and primary output   ║
+║   surface before they become systematic error. When Mirror Court     ║
+║   disagrees consistently, the primary Glass Room is being fooled     ║
+║   by something it cannot see. Mirror Court can.                      ║
+║   Status: PHASE 3A · Trigger: DI-010                                 ║
+║                                                                      ║
+║   GL-003  RECURSIVE NIGHTMARE                                        ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   An isolated red-team process that continuously constructs          ║
+║   adversarial signal environments designed to fool the primary       ║
+║   deliberation pipeline — synthetic flow, manufactured GEX           ║
+║   structure, coordinated dark pool prints. Findings are forged       ║
+║   into constitutional constraints. The vulnerability is never        ║
+║   disclosed to the agents being hardened. The system grows           ║
+║   wiser in silence.                                                  ║
+║   Status: PHASE 3A · Trigger: Mirror Court stable ≥ 30 days          ║
+║                                                                      ║
+║   GL-004  AEGIS KERNEL                                               ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   A formally verified Rust microkernel ( < 5,000 LOC ) that sits     ║
+║   beneath every agent spawn and every Ghost Layer subsystem call.    ║
+║   Every invocation is checked against the Five Laws and all eight    ║
+║   architectural invariants before execution. Violation triggers      ║
+║   the Dead Star Protocol — the Aegis signing key is destroyed,       ║
+║   all further agent spawns are rendered unverifiable, and OBSIDIAN   ║
+║   halts. Recovery requires operator intervention and key             ║
+║   re-establishment from secure backup.                               ║
+║   Status: PHASE 3B · Requires DECISIONS.md entry                     ║
+║                                                                      ║
+║   GL-005  LOOKING GLASS                                              ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   Adversarial market transparency subsystem. Models how OBSIDIAN's   ║
+║   own signal patterns appear to institutional actors who know that   ║
+║   algorithmic systems consuming options flow and GEX data exist —    ║
+║   and who may be constructing signals specifically to trigger        ║
+║   algorithmic entries at the wrong price in the wrong direction.     ║
+║                                                                      ║
+║   Mirror Surface:    Real-time algorithmic clustering model.         ║
+║                      Detects when multiple systems converge on the   ║
+║                      same thesis — making the edge front-runnable.   ║
+║                                                                      ║
+║   Refraction Layer:  Historical front-run fingerprint matching.      ║
+║                      Identifies setups where flow looked organic     ║
+║                      but outcomes matched adversarial patterns.      ║
+║                                                                      ║
+║   Output:            Transparency Score (0.00 – 1.00)                ║
+║     < 0.40  BLIND ANGLE  — setup outside algorithmic attention       ║
+║               Conviction threshold reduced 0.04 · Edge is clean.     ║
+║     > 0.65  CROWDED      — setup is front-runnable                   ║
+║               SPECTER weight elevated · Edge is compromised.         ║
+║     0.40–0.65 NEUTRAL    — Edge line omitted from package.           ║
+║                                                                      ║
+║   Status: PHASE 2A (Mirror Surface) · PHASE 2B (Refraction Layer)    ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                FOUR-CHAIN CRYPTOGRAPHIC ARCHITECTURE                 ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   Deed Chain          Append-only deliberation audit log             ║
+║                       SHA-256(prev_hash ‖ event ‖ lamport_tick)      ║
+║                                                                      ║
+║   Witness Chain       Package-level Merkle root commitment           ║
+║                       Written before Telegram delivery. Always.      ║
+║                                                                      ║
+║   Scar Chain          Outcome attribution per closed position        ║
+║                       WIN / LOSS / SCRATCH → calibration loop        ║
+║                                                                      ║
+║   Constitutional      Every REDLINE · BURN NOTICE · Ghost event      ║
+║   Chain               Permanent. Never pruned. Never modified.       ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   Lamport Tick        Monotonically increasing. Never resets.        ║
+║                       Collision = OBSIDIAN-SEC-009 = halt.           ║
+║   VAE Certificate     VAE-[12 char Merkle root] on every package.    ║
+║                       Independent verification without internal      ║
+║                       state access. Proof of alignment.              ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                      DEAD STAR PROTOCOL                              ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   Upon confirmed invariant violation or hardware compromise:         ║
+║   Aegis destroys its own signing key. All future agent spawns        ║
+║   are rendered cryptographically unverifiable. OBSIDIAN halts.       ║
+║   The four chains are sealed. The operational record is intact.      ║
+║   The adversary seizes nothing that matters.                         ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
 What the operator observes from the Ghost Layer:
 
