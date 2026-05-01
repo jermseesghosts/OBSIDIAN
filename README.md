@@ -1,24 +1,22 @@
 <div align="center">
 
-```
- ██████╗ ██████╗ ███████╗██╗██████╗ ██╗ █████╗ ███╗   ██╗
-██╔═══██╗██╔══██╗██╔════╝██║██╔══██╗██║██╔══██╗████╗  ██║
-██║   ██║██████╔╝███████╗██║██║  ██║██║███████║██╔██╗ ██║
-██║   ██║██╔══██╗╚════██║██║██║  ██║██║██╔══██║██║╚██╗██║
-╚██████╔╝██████╔╝███████║██║██████╔╝██║██║  ██║██║ ╚████║
- ╚═════╝ ╚═════╝ ╚══════╝╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
-```
+<br>
 
-**Capital Intelligence System · v1.0**
-
-*Lattice at the edge. Ontology in the mind. Constitution in the soul.*
+```
+O · B · S · I · D · I · A · N
+```
 
 ---
 
-[![Status](https://img.shields.io/badge/status-Phase%200%20Complete-1a1a2e?style=flat-square&labelColor=0d0d1a&color=c9a84c)](.)
-[![Stack](https://img.shields.io/badge/inference-Claude%20Sonnet-1a1a2e?style=flat-square&labelColor=0d0d1a&color=4a6fa5)](.)
-[![Trading](https://img.shields.io/badge/execution-Alpaca%20Paper-1a1a2e?style=flat-square&labelColor=0d0d1a&color=2d6a4f)](.)
-[![Build](https://img.shields.io/badge/build-Classified-1a1a2e?style=flat-square&labelColor=0d0d1a&color=8b1a1a)](.)
+**Ontology-driven Behavioral Synthesis for Intelligent Decision Inference And Navigation**
+
+*Autonomous capital intelligence. Governed by constitution. Proven by cryptography.*
+
+---
+
+`CLASSIFIED` &nbsp;·&nbsp; `INTERNAL` &nbsp;·&nbsp; `EYES ONLY` &nbsp;·&nbsp; `FORMATION 2026`
+
+<br>
 
 </div>
 
@@ -72,7 +70,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │   Decision Package · Telegram · Authorization · Alpaca      │
 │   DEAD DROP 0600 · BURN NOTICE · REDLINE Protocol           │
 │                                                             │
-│   OBSIDIAN speaks here. Nowhere else.                       │
+│   OBSIDIAN speaks here. Nowhere else.                          │
 │   The operator is always in the loop.                       │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -180,38 +178,52 @@ Not an alert. A structured investment case:
 ```
 OBSIDIAN · DECISION PACKAGE
 PKG-20260501-001 · 10:23 ET
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 $NVDA — LONG
-Conviction: 0.84 · Regime: BULL_TREND
+Conviction: 0.84 · Regime: BULL_TREND · Day 6
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 THESIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [Sourced. Quantified. 3 sentences. No hedging.]
 
-FLOW INTELLIGENCE
-[UW flow · Dark pool · Net direction · Timeframe]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FLOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UW:  4 sweeps · $1.8M net call · 90 min
+     $847K · 900C 5/16 · ask-side · sweep
+DP:  $34M · $891.40 · 38,200 shares · FINRA
+GEX: +$2.3B above flip · Wall $910 · Void $875
 
-GLASS ROOM
-ORACLE  YES  0.91 · Bull trend day 6, no analog conflict
-VECTOR  YES  0.88 · 4 sweeps $1.8M net call, dark pool confirmed
-AXIOM   YES  0.79 · Signal DNA: 12 analogs, 67% WR · R: 2.4x viable
-REFLEX  YES  0.74 · Buildup phase, no exhaustion signals
-SPECTER NO   0.61 · Flow reversal within 2 sessions breaks thesis
-PHANTOM YES  0.83 · VIX LOW, no systemic tail active
-WARDEN  CLEAR · All Five Laws confirmed
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GLASS ROOM  ·  6/7 CLEAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Consensus: LONG confirmed · Bull trend aligned
+SPECTER ✗ 0.61 — flow reversal within 2 sessions
+Signal DNA: 12 analogs · 67% WR · GEX_SQUEEZE
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EXECUTION
-Entry: $892.50 · Stop: $871.00 · Target: $944.00
-R: 2.4x · Size: 142 shares (4.1% of book)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Entry:  $892.50  (stop_limit)
+Stop:   $871.00  (-$21.50 · -2.4%)
+Target: $944.00  (+$51.50 · +5.8%)
+R:      2.4x
+Size:   142 shares · $126,735 · 4.1% of book
+Edge:   Blind angle · Transparency 0.31
 
-FALSIFICATION CONDITIONS
-1. UW flow reverses to put dominance within 2 sessions
-2. GEX flips negative below $880
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF WRONG
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. UW flow reverses to net put within 2 sessions
+2. GEX flips negative — price breaks $875 void
 3. Sector correlated names fail to hold key levels
 
-Reply /authorize to execute · 30-minute window
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+/authorize · /pass · 30 min
 VAE: a3f8c2d91b4e · Lamport: 4,923
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 **Maximum 5 Decision Packages per trading day.** This is a hard architectural ceiling — not a guideline. A day with zero packages is correct behavior when no thesis earns conviction.
@@ -235,7 +247,12 @@ Market Intelligence Unusual Whales API
 Price & Structure   Polygon.io API
                     OHLCV, real-time quotes, options chain, reference data.
 
-Edge Layer          Lattice Node (Phase 2)
+Reference Layer     Finnhub · FMP · FRED · Quiver Quantitative
+(Phase 2A)          CBOE · Kalshi · SEC EDGAR · FINRA
+                    News sentiment · Earnings calendar · Credit spreads
+                    Congressional trading · Vol surface · Prediction markets
+
+Edge Layer          Lattice Node (Phase 2D)
                     Dedicated local compute. Sub-100ms GEX + structural
                     detection. Operates independent of internet connectivity.
 
@@ -247,8 +264,8 @@ Persistence         Supabase (PostgreSQL)
                     Glass Room deliberation records. Performance ledger.
 
 Operator Channel    Telegram Bot API
-                    DEAD DROP · Decision Packages (with VAE certificate)
-                    BURN NOTICEs · REDLINEs · Lamport tick events
+                    42 message types. DEAD DROP · Decision Packages
+                    BURN NOTICEs · REDLINEs · Portfolio Health
 
 Classified          VEIL.md — Ghost Layer subsystem doctrine
                     ARBITER clearance required.
@@ -258,20 +275,22 @@ Classified          VEIL.md — Ghost Layer subsystem doctrine
 
 ## Document Operating System
 
-OBSIDIAN is governed by ten founding documents. Every build session reads them. Every architectural change is documented in them. No code is written without them.
+OBSIDIAN is governed by twelve founding documents. Every build session reads them. Every architectural change is documented in them. No code is written without them.
 
 ```
 CLAUDE.md                  Four governing axioms. The mission. The posture.
 ARCHITECTURE.md            Five Laws. Eight invariants. Glass Room. Ghost Layer.
-DATA_SOURCES.md            Four source contracts. Trust weights. Failure modes.
+DATA_SOURCES.md            Twelve source contracts. Trust weights. Failure modes.
 DECISIONS.md               Every architectural decision. Append-only. Permanent.
 GLOSSARY.md                One term, one definition.
 PROJECTS.md                Phase registry. Exit criteria. Forensic demonstrations.
 ENGINEERING_STANDARD.md    Code standards. Naming registry. Delivery format.
-COMMUNICATION_CONTRACT.md  Every message OBSIDIAN sends. Locked formats. Canary tests.
+COMMUNICATION_CONTRACT.md  42 message types. Locked formats. Canary tests.
 DEFERRED_INTELLIGENCE.md   Future capability queue. Trigger conditions. Build order.
+PHASE_1A_SPEC.md           Claude Code session spec for Phase 1A build.
 VEIL.md                    Ghost Layer doctrine. ARBITER clearance only.
                            [This file does not appear in the public repository.]
+README.md                  This document.
 ```
 
 A session that generates code before reading the governing documents has already made an error that no amount of correct syntax will fix.
@@ -287,9 +306,9 @@ Phase 1B   Supabase Schema + Cryptographic Chains
 Phase 1C   Glass Room Core (LangGraph)
 Phase 1D   Constitutional Layer (WARDEN + Five Laws)
 Phase 1E   Decision Package + VAE Certificate + Telegram
-Phase 1F   DEAD DROP + Operator Authorization + Execution
+Phase 1F   Full Operator Interface + Execution + All 42 Alerts
 
-Phase 2A   Conviction Archive + Signal DNA
+Phase 2A   Conviction Archive + Signal DNA + Reference Layer
 Phase 2B   Phantom Oracle + Pre-Mortem Engine
 Phase 2C   Performance Ledger + Glass Room Calibration
 Phase 2D   Lattice Node (hardware edge layer)
@@ -335,6 +354,8 @@ OBSIDIAN-SEC-005   Execution routed without operator authorization — immediate
 OBSIDIAN-SEC-006   Portfolio drawdown threshold breached — all positions halted
 OBSIDIAN-SEC-007   State not recoverable from Supabase — OBSIDIAN halted
 OBSIDIAN-SEC-008   Daily package ceiling reached — no further packages this session
+OBSIDIAN-SEC-009   Lamport tick collision — Deed Chain integrity compromised
+OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 ```
 
 ---
@@ -378,9 +399,9 @@ OBSIDIAN-SEC-008   Daily package ceiling reached — no further packages this se
 
 *Classification: Internal — Engineering*
 
-
+```
 OBSIDIAN is not a product. It is infrastructure.
 The kind that compounds.
-
+```
 
 </div>
