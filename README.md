@@ -72,7 +72,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │   Decision Package · Telegram · Authorization · Alpaca      │
 │   DEAD DROP 0600 · BURN NOTICE · REDLINE Protocol           │
 │                                                             │
-│   OBSIDIAN speaks here. Nowhere else.                          │
+│   OBSIDIAN speaks here. Nowhere else.                       │
 │   The operator is always in the loop.                       │
 └─────────────────────────────────────────────────────────────┘
 ```
