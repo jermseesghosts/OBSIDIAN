@@ -446,13 +446,13 @@ A self-improving weight engine built before 500 closed positions is not intellig
 ║                                                                      ║
 ║   LAYER 2 — ONTOLOGY ENGINE                                          ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   Thesis Formation    [ PHASE 1C · QUEUED    ]                       ║
+║   Thesis Formation    [ PHASE 1C · ACTIVE    ]                       ║
 ║   Signal DNA          [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
 ║   Phantom Oracle      [ PHASE 2B · DEFERRED  ]  5-scenario engine    ║
 ║   Pre-Mortem Engine   [ PHASE 2B · DEFERRED  ]  falsification gen    ║
 ║   Reflexivity Index   [ PHASE 3A · DEFERRED  ]  Soros feedback       ║
 ║                                                                      ║
-║   THE GLASS ROOM      [ PHASE 1C · QUEUED    ]                       ║
+║   THE GLASS ROOM      [ PHASE 1C · ACTIVE    ]                       ║
 ║   ─────────────────────────────────────────────────────────────────  ║
 ║   ORACLE    Regime classification · Runs first · Conditions all      ║
 ║   VECTOR    Institutional flow · Dark pool · GEX positioning         ║
@@ -472,7 +472,7 @@ A self-improving weight engine built before 500 closed positions is not intellig
 ║                                                                      ║
 ║   LAYER 1 — SENSOR MESH                                              ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   PHASE 1A · CORE (trust weight 0.68)                                ║
+║   PHASE 1A · CORE · COMPLETE (trust weight 0.68)                     ║
 ║                                                                      ║
 ║   Unusual Whales   0.25   Options flow · Dark pool · Market tide     ║
 ║   Polygon.io       0.20   OHLCV · Quotes · Options chain · Ref data  ║
@@ -542,9 +542,9 @@ Twelve intelligence capabilities are fully specified and architecturally designe
 
 ```
 PHASE 0   ████████████  COMPLETE   Document Operating System
-PHASE 1A  ████░░░░░░░░  ACTIVE     Sensor Mesh Ingestion
-PHASE 1B  ░░░░░░░░░░░░  QUEUED     Supabase Schema + Cryptographic Chains
-PHASE 1C  ░░░░░░░░░░░░  QUEUED     Glass Room Core (LangGraph)
+PHASE 1A  ████████████  COMPLETE   Sensor Mesh + Enhancement Layer        23/23 tests
+PHASE 1B  ████████████  COMPLETE   Supabase Schema + Cryptographic Chains  38/38 tests
+PHASE 1C  ████░░░░░░░░  ACTIVE     Glass Room Core (LangGraph)
 PHASE 1D  ░░░░░░░░░░░░  QUEUED     Constitutional Layer (WARDEN + Five Laws)
 PHASE 1E  ░░░░░░░░░░░░  QUEUED     Decision Package + VAE Certificate + Telegram
 PHASE 1F  ░░░░░░░░░░░░  QUEUED     Full Operator Interface + Execution + 42 Alerts
@@ -563,7 +563,11 @@ Each phase has defined pre-conditions, a capability cluster, mandatory named tes
 
 **Phase 0 is complete.** Twelve founding documents written before a single line of operational code. The architecture is specified before the implementation exists. Bones before muscles.
 
-**Phase 1A is active.** Four data source connectors and the ingestion orchestrator. The system's eyes open first.
+**Phase 1A is complete.** Four data source connectors, the ingestion orchestrator, and the enhancement layer — cross-source contradiction detection, adversarial flow detection, VIX-conditioned cadence, and the replay buffer. 23 tests. All passing.
+
+**Phase 1B is complete.** Two idempotent SQL migrations applied to the live Supabase project. Eleven tables live. Four cryptographic chains initialized. Lamport sequence seeded. Append-only RLS confirmed on all audit tables. Five Python DB-layer classes. 38 tests. All passing.
+
+**Phase 1C is active.** The Glass Room. Eight agents. The deliberation engine that earns conviction.
 
 ---
 
@@ -669,10 +673,11 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 *Classification: Internal — Engineering*
 
 
-Phase 0 complete. Phase 1A active.
-The document operating system exists before the code.
-The architecture is specified before the implementation.
-The constitution is written before the first trade.
+Phase 0 complete. Phase 1A complete. Phase 1B complete. Phase 1C active.
+61 tests passing. Four cryptographic chains live. The sensor mesh reads the market.
+The database records every decision with provenance.
+The Glass Room is being built.
+The constitution was written before the first trade.
 
 OBSIDIAN is not a product. It is infrastructure.
 The kind that compounds.
