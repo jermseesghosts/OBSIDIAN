@@ -422,6 +422,121 @@ A self-improving weight engine built before 500 closed positions is not intellig
 
 ---
 
+## The Intelligence Stack
+ 
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║              O B S I D I A N   I N T E L L I G E N C E               ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║   LAYER 3 — COMMAND AUTHORITY                                        ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   42 Message Types       Telegram Bot API       Operator Channel     ║
+║   DEAD DROP 0600         NIGHT WATCH 1600        Decision Packages   ║
+║   BURN NOTICE            REDLINE Protocol        Portfolio Health    ║
+║   Drawdown Halt          VIX Spike Alert         Regime Shift        ║
+║   Take Profit            Scale In                Stop Tighten        ║
+║   Break Even             Overnight Gap           PDT Watch           ║
+║                                                                      ║
+║   Execution:  Alpaca Markets (Paper — Phase 1)                       ║
+║               stop_limit orders only · DEC-001 · DEC-004             ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║   LAYER 2 — ONTOLOGY ENGINE                                          ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   Thesis Formation    [ PHASE 1C · QUEUED    ]                       ║
+║   Signal DNA          [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
+║   Phantom Oracle      [ PHASE 2B · DEFERRED  ]  5-scenario engine    ║
+║   Pre-Mortem Engine   [ PHASE 2B · DEFERRED  ]  falsification gen    ║
+║   Reflexivity Index   [ PHASE 3A · DEFERRED  ]  Soros feedback       ║
+║                                                                      ║
+║   THE GLASS ROOM      [ PHASE 1C · QUEUED    ]                       ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   ORACLE    Regime classification · Runs first · Conditions all      ║
+║   VECTOR    Institutional flow · Dark pool · GEX positioning         ║
+║   AXIOM     Statistical edge · Signal DNA · Win rate · Expectancy    ║
+║   REFLEX    Second-order effects · Reflexivity · Exhaustion          ║
+║   SPECTER   Adversarial · Falsification · 1.5× dissent weight        ║
+║   PHANTOM   Tail risk · Credit spreads · VIX surface · Kalshi        ║
+║   WARDEN    Constitutional · Five Laws · REDLINE · Absolute kill     ║
+║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
+║                                                                      ║
+║   Constitutional Layer  [ PHASE 1D · QUEUED  ]                       ║
+║   VAE Certificate       [ PHASE 1E · QUEUED  ]                       ║
+║   Performance Ledger    [ PHASE 2C · DEFERRED ]                      ║
+║   Glass Room Calibration[ PHASE 2C · DEFERRED ]                      ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║   LAYER 1 — SENSOR MESH                                              ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   PHASE 1A · CORE (trust weight 0.68)                                ║
+║                                                                      ║
+║   Unusual Whales   0.25   Options flow · Dark pool · Market tide     ║
+║   Polygon.io       0.20   OHLCV · Quotes · Options chain · Ref data  ║
+║   Alpaca Markets   0.13   Book state · Positions · Orders            ║
+║   GEX Engine       0.10   Gamma surface · Flip point · Voids/walls   ║
+║                                                                      ║
+║   PHASE 2A · REFERENCE LAYER (trust weight 0.32)                     ║
+║                                                                      ║
+║   Finnhub          0.07   News sentiment · Insider transactions      ║
+║   FMP              0.06   Earnings calendar · 13F institutional      ║
+║   FRED             0.06   Credit spreads · Yield curve · Macro       ║
+║   Quiver Quant     0.05   Congressional trading · Short interest     ║
+║   CBOE             0.04   VVIX · SKEW · VIX term structure           ║
+║   Kalshi           0.03   Prediction market probabilities            ║
+║   SEC EDGAR        0.01   Real-time 8-K · Form 4 insider             ║
+║   BLS Calendar     0.00   Macro release schedule                     ║
+║                                                                      ║
+║   PHASE 2D · HARDWARE EDGE LAYER                                     ║
+║                                                                      ║
+║   Lattice Node     ----   Sub-100ms GEX · Whisper Mode               ║
+║                           Liquidity Void · 10GbE · Edge-native       ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║   INFRASTRUCTURE                                                     ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   Inference       Claude Sonnet (claude-sonnet-4-20250514)           ║
+║                   Glass Room deliberation · ARBITER synthesis        ║
+║   Deliberation    LangGraph 0.2.28 · StateGraph · PostgresSaver      ║
+║   Persistence     Supabase (PostgreSQL) · Four audit chains          ║
+║                   ingestion_log · theses · council_deliberations     ║
+║                   decision_packages · positions · deed_chain         ║
+║                   witness_chain · scar_chain · constitutional_events ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                       G H O S T   L A Y E R                          ║
+║   ─────────────────────────────────────────────────────────────────  ║
+║   GL-001  Constitutional Evolution Engine   [ PHASE 3A · DEFERRED ]  ║
+║   GL-002  Mirror Court                      [ PHASE 3A · DEFERRED ]  ║
+║   GL-003  Recursive NIGHTMARE               [ PHASE 3A · DEFERRED ]  ║
+║   GL-004  Aegis Kernel (Rust)               [ PHASE 3B · DEFERRED ]  ║
+║   GL-005  LOOKING GLASS                     [ PHASE 2A · DEFERRED ]  ║
+║                                                                      ║
+║                   VEIL.md · ARBITER CLEARANCE REQUIRED               ║
+╠══════════════════════════════════════════════════════════════════════╣
+║             FOUR-CHAIN CRYPTOGRAPHIC AUDIT ARCHITECTURE              ║
+║      Deed Chain · Witness Chain · Scar Chain · Constitutional Chain  ║
+║      Lamport Tick · VAE Certificate · Dead Star Protocol             ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+ 
+**Three languages. One doctrine.**
+ 
+| Layer | Language | Why |
+|---|---|---|
+| Agents · Deliberation · Ingestion | `Python` | Ecosystem depth for AI and async data |
+| Performance-critical paths | `Rust` | Memory safety, zero overhead — GEX Engine, Aegis Kernel |
+| Infrastructure · Migrations | `SQL / PostgreSQL` | Supabase — the sole persistence layer |
+ 
+Every language earns its place. The rule is not "use these languages." The rule is: use the language that makes the system faster, safer, or more correct for that specific layer. When in doubt, record the decision in DECISIONS.md.
+ 
+Twelve intelligence capabilities are fully specified and architecturally designed — but not yet built, because the data conditions for building them correctly do not yet exist.
+ 
+---
+
 ## The Build Sequence
 
 ```
