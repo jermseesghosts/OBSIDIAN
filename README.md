@@ -398,33 +398,8 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 
 ---
 
-## The Deferred Intelligence Queue
-
-Twelve intelligence capabilities are fully specified and architecturally designed — but not yet built, because the data conditions for building them correctly do not yet exist.
-
-This is not backlog. This is architecture.
-
-A self-improving weight engine built before 500 closed positions is not intelligent. It is pattern-matching noise. A wound taxonomy system built before 100 classified losses has no wounds to learn from. The trigger conditions are not obstacles to capability. They are the capability. A system built before its data conditions are met is not intelligent. It is confidently wrong.
-
-| Capability | Trigger Condition |
-|---|---|
-| Self-Improving Weight Engine | n ≥ 500 closed positions |
-| Conviction Confluence Multiplier | n ≥ 50 per source-tag combination |
-| Adaptive Regime-Aware Weights | n ≥ 100 closed positions, 10+ per regime |
-| Wound Taxonomy Engine | n ≥ 100 classified losses |
-| Morphic Resonance Detector | n ≥ 50 wound taxonomy entries |
-| Pattern Archaeology | n ≥ 400 resolved theses, 90+ days |
-| Phantom Reversal Flag | Adversarial oracle rate > 20% over 30 days |
-| System Self-Portrait | All prior DI modules stable ≥ 30 days |
-| Mirror Court | DECISIONS.md entry + DI trigger |
-| Recursive NIGHTMARE | Mirror Court stable ≥ 30 days |
-| Aegis Kernel (Rust) | Phase 3B authorization + DECISIONS.md |
-| LOOKING GLASS Full | Signal DNA archive ≥ Phase 2A |
-
----
-
 ## The Intelligence Stack
- 
+
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║              O B S I D I A N   I N T E L L I G E N C E               ║
@@ -446,13 +421,13 @@ A self-improving weight engine built before 500 closed positions is not intellig
 ║                                                                      ║
 ║   LAYER 2 — ONTOLOGY ENGINE                                          ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   Thesis Formation    [ PHASE 1C · ACTIVE    ]                       ║
+║   Thesis Formation    [ PHASE 1C · QUEUED    ]                       ║
 ║   Signal DNA          [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
 ║   Phantom Oracle      [ PHASE 2B · DEFERRED  ]  5-scenario engine    ║
 ║   Pre-Mortem Engine   [ PHASE 2B · DEFERRED  ]  falsification gen    ║
 ║   Reflexivity Index   [ PHASE 3A · DEFERRED  ]  Soros feedback       ║
 ║                                                                      ║
-║   THE GLASS ROOM      [ PHASE 1C · ACTIVE    ]                       ║
+║   THE GLASS ROOM      [ PHASE 1C · QUEUED    ]                       ║
 ║   ─────────────────────────────────────────────────────────────────  ║
 ║   ORACLE    Regime classification · Runs first · Conditions all      ║
 ║   VECTOR    Institutional flow · Dark pool · GEX positioning         ║
@@ -472,7 +447,7 @@ A self-improving weight engine built before 500 closed positions is not intellig
 ║                                                                      ║
 ║   LAYER 1 — SENSOR MESH                                              ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   PHASE 1A · CORE · COMPLETE (trust weight 0.68)                     ║
+║   PHASE 1A · CORE (trust weight 0.68)                                ║
 ║                                                                      ║
 ║   Unusual Whales   0.25   Options flow · Dark pool · Market tide     ║
 ║   Polygon.io       0.20   OHLCV · Quotes · Options chain · Ref data  ║
@@ -523,28 +498,47 @@ A self-improving weight engine built before 500 closed positions is not intellig
 ║      Lamport Tick · VAE Certificate · Dead Star Protocol             ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
- 
+
 **Three languages. One doctrine.**
- 
+
 | Layer | Language | Why |
 |---|---|---|
 | Agents · Deliberation · Ingestion | `Python` | Ecosystem depth for AI and async data |
 | Performance-critical paths | `Rust` | Memory safety, zero overhead — GEX Engine, Aegis Kernel |
 | Infrastructure · Migrations | `SQL / PostgreSQL` | Supabase — the sole persistence layer |
- 
+
 Every language earns its place. The rule is not "use these languages." The rule is: use the language that makes the system faster, safer, or more correct for that specific layer. When in doubt, record the decision in DECISIONS.md.
- 
+
 Twelve intelligence capabilities are fully specified and architecturally designed — but not yet built, because the data conditions for building them correctly do not yet exist.
- 
+
+This is not backlog. This is architecture.
+
+A self-improving weight engine built before 500 closed positions is not intelligent. It is pattern-matching noise. A wound taxonomy system built before 100 classified losses has no wounds to learn from. The trigger conditions are not obstacles to capability. They are the capability. A system built before its data conditions are met is not intelligent. It is confidently wrong.
+
+| Capability | Trigger Condition |
+|---|---|
+| Self-Improving Weight Engine | n ≥ 500 closed positions |
+| Conviction Confluence Multiplier | n ≥ 50 per source-tag combination |
+| Adaptive Regime-Aware Weights | n ≥ 100 closed positions, 10+ per regime |
+| Wound Taxonomy Engine | n ≥ 100 classified losses |
+| Morphic Resonance Detector | n ≥ 50 wound taxonomy entries |
+| Pattern Archaeology | n ≥ 400 resolved theses, 90+ days |
+| Phantom Reversal Flag | Adversarial oracle rate > 20% over 30 days |
+| System Self-Portrait | All prior DI modules stable ≥ 30 days |
+| Mirror Court | DECISIONS.md entry + DI trigger |
+| Recursive NIGHTMARE | Mirror Court stable ≥ 30 days |
+| Aegis Kernel (Rust) | Phase 3B authorization + DECISIONS.md |
+| LOOKING GLASS Full | Signal DNA archive ≥ Phase 2A |
+
 ---
 
 ## The Build Sequence
 
 ```
 PHASE 0   ████████████  COMPLETE   Document Operating System
-PHASE 1A  ████████████  COMPLETE   Sensor Mesh + Enhancement Layer        23/23 tests
-PHASE 1B  ████████████  COMPLETE   Supabase Schema + Cryptographic Chains  38/38 tests
-PHASE 1C  ████░░░░░░░░  ACTIVE     Glass Room Core (LangGraph)
+PHASE 1A  ████░░░░░░░░  ACTIVE     Sensor Mesh Ingestion
+PHASE 1B  ░░░░░░░░░░░░  QUEUED     Supabase Schema + Cryptographic Chains
+PHASE 1C  ░░░░░░░░░░░░  QUEUED     Glass Room Core (LangGraph)
 PHASE 1D  ░░░░░░░░░░░░  QUEUED     Constitutional Layer (WARDEN + Five Laws)
 PHASE 1E  ░░░░░░░░░░░░  QUEUED     Decision Package + VAE Certificate + Telegram
 PHASE 1F  ░░░░░░░░░░░░  QUEUED     Full Operator Interface + Execution + 42 Alerts
@@ -561,19 +555,15 @@ PHASE 3B  ░░░░░░░░░░░░  DEFERRED   Aegis Kernel (Rust) +
 
 Each phase has defined pre-conditions, a capability cluster, mandatory named tests, exit criteria, and forensic demonstrations required before the next phase is authorized. A phase is COMPLETE or IN PROGRESS. Nothing in between.
 
-**Phase 0 is complete.** Twelve founding documents written before a single line of operational code. The architecture is specified before the implementation exists. Bones before muscles.
+**Phase 0 is complete.** Eleven founding documents written before a single line of operational code. The architecture is specified before the implementation exists. Bones before muscles.
 
-**Phase 1A is complete.** Four data source connectors, the ingestion orchestrator, and the enhancement layer — cross-source contradiction detection, adversarial flow detection, VIX-conditioned cadence, and the replay buffer. 23 tests. All passing.
-
-**Phase 1B is complete.** Two idempotent SQL migrations applied to the live Supabase project. Eleven tables live. Four cryptographic chains initialized. Lamport sequence seeded. Append-only RLS confirmed on all audit tables. Five Python DB-layer classes. 38 tests. All passing.
-
-**Phase 1C is active.** The Glass Room. Eight agents. The deliberation engine that earns conviction.
+**Phase 1A is active.** Four data source connectors and the ingestion orchestrator. The system's eyes open first.
 
 ---
 
 ## The Document Operating System
 
-OBSIDIAN is governed by twelve founding documents. Every build session reads them. Every architectural change is documented in them. No code exists without them.
+OBSIDIAN is governed by eleven founding documents. Every build session reads them. Every architectural change is documented in them. No code exists without them.
 
 ```
 CLAUDE.md                  Four governing axioms. The mission. The posture.
@@ -585,7 +575,6 @@ PROJECTS.md                Phase registry. Exit criteria. Forensic demonstration
 ENGINEERING_STANDARD.md    Code standards. Naming registry. Session discipline.
 COMMUNICATION_CONTRACT.md  42 message types. Locked formats. Canary tests.
 DEFERRED_INTELLIGENCE.md   Twelve queued capabilities. Trigger conditions.
-PHASE_1A_SPEC.md           Complete Claude Code session spec for Phase 1A.
 VEIL.md                    Ghost Layer doctrine. ARBITER clearance only.
 README.md                  This document.
 ```
@@ -672,16 +661,15 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 
 *Classification: Internal — Engineering*
 
-
-Phase 0 complete. Phase 1A complete. Phase 1B complete. Phase 1C active.
-61 tests passing. Four cryptographic chains live. The sensor mesh reads the market.
-The database records every decision with provenance.
-The Glass Room is being built.
-The constitution was written before the first trade.
+```
+Phase 0 complete. Phase 1A active.
+The document operating system exists before the code.
+The architecture is specified before the implementation.
+The constitution is written before the first trade.
 
 OBSIDIAN is not a product. It is infrastructure.
 The kind that compounds.
-
+```
 
 `Classified` &nbsp;·&nbsp; `Internal` &nbsp;·&nbsp; `Eyes Only`
 
