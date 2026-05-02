@@ -427,7 +427,7 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 ║   Pre-Mortem Engine   [ PHASE 2B · DEFERRED  ]  falsification gen    ║
 ║   Reflexivity Index   [ PHASE 3A · DEFERRED  ]  Soros feedback       ║
 ║                                                                      ║
-║   THE GLASS ROOM      [ PHASE 1C · QUEUED    ]                       ║
+║   THE GLASS ROOM      [ PHASE 1C · COMPLETE  ]                       ║
 ║   ─────────────────────────────────────────────────────────────────  ║
 ║   ORACLE    Regime classification · Runs first · Conditions all      ║
 ║   VECTOR    Institutional flow · Dark pool · GEX positioning         ║
@@ -439,7 +439,7 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 ║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
 ║                                                                      ║
 ║   Constitutional Layer  [ PHASE 1D · COMPLETE ]                      ║
-║   VAE Certificate       [ PHASE 1E · QUEUED   ]                      ║
+║   VAE Certificate       [ PHASE 1E · COMPLETE ]                      ║
 ║   Performance Ledger    [ PHASE 2C · DEFERRED ]                      ║
 ║   Glass Room Calibration[ PHASE 2C · DEFERRED ]                      ║
 ║                                                                      ║
@@ -540,7 +540,7 @@ PHASE 1A   ████████████  COMPLETE   Sensor Mesh + UW Gap
 PHASE 1B   ████████████  COMPLETE   Schema + Crypto Chains      38 tests
 PHASE 1C   ████████████  COMPLETE   Glass Room Core             31 tests
 PHASE 1D   ████████████  COMPLETE   Constitutional Layer        34 tests
-PHASE 1E   ████░░░░░░░░  ACTIVE     Decision Package + VAE
+PHASE 1E   ████████████  COMPLETE   Decision Package + VAE      64 tests
 PHASE 1F   ░░░░░░░░░░░░  QUEUED     Full Operator Interface
 
 PHASE 2A  ░░░░░░░░░░░░  DEFERRED   Signal DNA + Reference Layer (12 sources)
@@ -557,7 +557,9 @@ Each phase has defined pre-conditions, a capability cluster, mandatory named tes
 
 **Phase 0 is complete.** Eleven founding documents written before a single line of operational code. The architecture is specified before the implementation exists. Bones before muscles.
 
-**Phase 1A is active.** Four data source connectors and the ingestion orchestrator. The system's eyes open first.
+**Phases 1A through 1E are complete.** The sensor mesh ingests. The Glass Room deliberates. The Constitutional Layer enforces. OBSIDIAN speaks. 200 tests passing.
+
+**Phase 1F is next.** Full operator interface, all 42 message types, position lifecycle monitoring, and Alpaca order routing. OBSIDIAN becomes a complete paper trading intelligence system at Phase 1F exit.
 
 ---
 
