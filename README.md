@@ -536,9 +536,9 @@ A self-improving weight engine built before 500 closed positions is not intellig
 
 ```
 PHASE 0   ████████████  COMPLETE   Document Operating System
-PHASE 1A  ████░░░░░░░░  ACTIVE     Sensor Mesh Ingestion
-PHASE 1B  ░░░░░░░░░░░░  QUEUED     Supabase Schema + Cryptographic Chains
-PHASE 1C  ░░░░░░░░░░░░  QUEUED     Glass Room Core (LangGraph)
+PHASE 1A  ████████████  COMPLETE     Sensor Mesh Ingestion
+PHASE 1B  ████████████  COMPLETE     Supabase Schema + Cryptographic Chains
+PHASE 1C  ████░░░░░░░░  QUEUED     Glass Room Core (LangGraph)
 PHASE 1D  ░░░░░░░░░░░░  QUEUED     Constitutional Layer (WARDEN + Five Laws)
 PHASE 1E  ░░░░░░░░░░░░  QUEUED     Decision Package + VAE Certificate + Telegram
 PHASE 1F  ░░░░░░░░░░░░  QUEUED     Full Operator Interface + Execution + 42 Alerts
