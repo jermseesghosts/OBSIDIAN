@@ -535,13 +535,13 @@ A self-improving weight engine built before 500 closed positions is not intellig
 ## The Build Sequence
 
 ```
-PHASE 0   ████████████  COMPLETE   Document Operating System
-PHASE 1A  ████████████  COMPLETE   Sensor Mesh Ingestion  23/23 tests
-PHASE 1B  ████████████  COMPLETE   Supabase Schema + Cryptographic Chains  38/38 tests
-PHASE 1C  ████░░░░░░░░  QUEUED     Glass Room Core (LangGraph)
-PHASE 1D  ░░░░░░░░░░░░  QUEUED     Constitutional Layer (WARDEN + Five Laws)
-PHASE 1E  ░░░░░░░░░░░░  QUEUED     Decision Package + VAE Certificate + Telegram
-PHASE 1F  ░░░░░░░░░░░░  QUEUED     Full Operator Interface + Execution + 42 Alerts
+PHASE 0    ████████████  COMPLETE   Document OS
+PHASE 1A   ████████████  COMPLETE   Sensor Mesh + UW Gap Pass   43 tests
+PHASE 1B   ████████████  COMPLETE   Schema + Crypto Chains      38 tests
+PHASE 1C   ████████████  COMPLETE   Glass Room Core             31 tests
+PHASE 1D   ████████████  COMPLETE   Constitutional Layer        34 tests
+PHASE 1E   ░░░░░░░░░░░░  ACTIVE     Decision Package + VAE
+PHASE 1F   ░░░░░░░░░░░░  QUEUED     Full Operator Interface
 
 PHASE 2A  ░░░░░░░░░░░░  DEFERRED   Signal DNA + Reference Layer (12 sources)
 PHASE 2B  ░░░░░░░░░░░░  DEFERRED   Phantom Oracle + Pre-Mortem Engine
