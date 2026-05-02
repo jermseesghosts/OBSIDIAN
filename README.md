@@ -421,7 +421,7 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 ║                                                                      ║
 ║   LAYER 2 — ONTOLOGY ENGINE                                          ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   Thesis Formation    [ PHASE 1C · QUEUED    ]                       ║
+║   Thesis Formation    [ PHASE 1C · COMPLETE  ]                       ║
 ║   Signal DNA          [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
 ║   Phantom Oracle      [ PHASE 2B · DEFERRED  ]  5-scenario engine    ║
 ║   Pre-Mortem Engine   [ PHASE 2B · DEFERRED  ]  falsification gen    ║
@@ -438,8 +438,8 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 ║   WARDEN    Constitutional · Five Laws · REDLINE · Absolute kill     ║
 ║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
 ║                                                                      ║
-║   Constitutional Layer  [ PHASE 1D · QUEUED  ]                       ║
-║   VAE Certificate       [ PHASE 1E · QUEUED  ]                       ║
+║   Constitutional Layer  [ PHASE 1D · COMPLETE ]                      ║
+║   VAE Certificate       [ PHASE 1E · QUEUED   ]                      ║
 ║   Performance Ledger    [ PHASE 2C · DEFERRED ]                      ║
 ║   Glass Room Calibration[ PHASE 2C · DEFERRED ]                      ║
 ║                                                                      ║
