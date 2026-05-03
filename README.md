@@ -463,7 +463,7 @@ Two visual languages. Distinct by function.
 ║                                                                      ║
 ║   LAYER 3 — COMMAND AUTHORITY                                        ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   42 Message Types       Telegram Bot API       Operator Channel     ║
+║   42 Message Types       Telegram Bot API        Operator Channel    ║
 ║   DEAD DROP 0600         NIGHT WATCH 1600        Decision Packages   ║
 ║   BURN NOTICE            REDLINE Protocol        Portfolio Health    ║
 ║   Drawdown Halt          VIX Spike Alert         Regime Shift        ║
@@ -477,28 +477,28 @@ Two visual languages. Distinct by function.
 ║                                                                      ║
 ║   LAYER 2 — ONTOLOGY ENGINE                                          ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   Thesis Formation    [ PHASE 1C · COMPLETE  ]                       ║
-║   RegimeDetector      [ PHASE 1F · LIVE      ]  real SPY regime      ║
-║   Signal DNA core     [ PHASE 1F · LIVE      ]  scar_chain reader    ║
-║   Evidence Accum.     [ PHASE 1F · LIVE      ]  multi-session weight ║
-║   Freshness Decay     [ PHASE 1F · LIVE      ]  time-conditioned TW  ║
-║   Trash-Chart Gate    [ PHASE 1F · LIVE      ]  pre-deliberation QC  ║
-║   Conviction Tier     [ PHASE 1F · LIVE      ]  STRONG/STD/MARGINAL  ║
-║   Delib. Variance     [ PHASE 1F · LIVE      ]  council spread score ║
-║   Reflection Loop     [ PHASE 1F · LIVE      ]  post-close priors    ║
-║   Pre-Mortem Engine   [ PHASE 1F · LIVE      ]  Claude falsification ║
-║   Signal DNA full     [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
-║   Phantom Oracle      [ PHASE 2B · DEFERRED  ]  5-scenario engine    ║
-║   Reflexivity Index   [ PHASE 3A · DEFERRED  ]  Soros feedback       ║
+║   Thesis Formation    [ PHASE 1C · LIVE     ] sensor fusion → thesis ║
+║   RegimeDetector      [ PHASE 1F · LIVE     ] real SPY regime        ║
+║   Signal DNA core     [ PHASE 1F · LIVE     ] scar_chain reader      ║
+║   Evidence Accum.     [ PHASE 1F · LIVE     ] multi-session weight   ║
+║   Freshness Decay     [ PHASE 1F · LIVE     ] time-conditioned TW    ║ 
+║   Trash-Chart Gate    [ PHASE 1F · LIVE     ] pre-deliberation QC    ║
+║   Conviction Tier     [ PHASE 1F · LIVE     ] STRONG/STD/MARGINAL    ║
+║   Delib. Variance     [ PHASE 1F · LIVE     ] council spread score   ║
+║   Reflection Loop     [ PHASE 1F · LIVE     ] post-close priors      ║
+║   Pre-Mortem Engine   [ PHASE 1F · LIVE     ] Claude falsification   ║ 
+║   Signal DNA full     [ PHASE 2A · DEFERRED ] 11-dim fingerprint     ║
+║   Phantom Oracle      [ PHASE 2B · DEFERRED ] 5-scenario engine      ║
+║   Reflexivity Index   [ PHASE 3A · DEFERRED ] Soros feedback         ║
 ║                                                                      ║
-║   THE GLASS ROOM      [ PHASE 1C · COMPLETE  ]                       ║
+║   THE GLASS ROOM      [ PHASE 1C · LIVE     ] 8-agent deliberation   ║
 ║   ─────────────────────────────────────────────────────────────────  ║
 ║   ORACLE    Regime classification · Runs first · Conditions all      ║
 ║   VECTOR    Institutional flow · Dark pool · GEX positioning         ║
 ║   AXIOM     Statistical edge · Signal DNA · Win rate · Expectancy    ║
 ║   REFLEX    Second-order effects · Reflexivity · Exhaustion          ║
 ║   SPECTER   Adversarial · Falsification · 1.5× dissent weight        ║
-║   PHANTOM   Tail risk · Credit spreads · VIX surface · Kalshi        ║
+║   PHANTOM   Tail risk · Credit spreads · VIX surface · Polymarket    ║
 ║   WARDEN    Constitutional · Five Laws · REDLINE · Absolute kill     ║
 ║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
 ║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
