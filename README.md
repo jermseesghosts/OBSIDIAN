@@ -121,7 +121,7 @@ Every thesis that reaches conviction has survived eight independent analytical l
 | **WARDEN** | Constitutional officer. Enforces the Five Laws. Issues REDLINEs. | **Absolute kill** |
 | **ARBITER** | Synthesis only. Does not vote. Produces the conviction score and assembles the Decision Package. | — |
 
-The Glass Room is visible from the inside — every agent sees the full thesis and all prior verdicts. It is opaque from the outside — deliberation content is classified. Only the conviction score, agent verdict summary, and VAE certificate reach the operator.
+The Glass Room is visible from the inside — every agent sees the full thesis and all prior verdicts. It is opaque from the outside — deliberation content is classified. Only the conviction score, agent verdict summary, PHANTOM SYNTHESIS assertion, and VAE certificate reach the operator.
 
 **SPECTER + PHANTOM consensus** triggers mandatory second deliberation. The first round is logged and discarded. All agents re-vote with the adversarial case explicitly surfaced. Two adversarial agents in sustained agreement is a hard stop.
 
@@ -381,6 +381,14 @@ IF WRONG
 3. Sector correlated names fail to hold key levels
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+▓ CLASSIFIED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Structural convergence across adversarial and regime
+vectors confirms this is not crowded — it is early.
+
+░░░░░░░░░░░░ SEAL·A3F8C2D91B4E
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 /authorize · /pass · 30 min
 VAE: a3f8c2d91b4e · Lamport: 4,923
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -422,9 +430,11 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 ║   LAYER 2 — ONTOLOGY ENGINE                                          ║
 ║   ─────────────────────────────────────────────────────────────────  ║
 ║   Thesis Formation    [ PHASE 1C · COMPLETE  ]                       ║
-║   Signal DNA          [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
+║   RegimeDetector      [ PHASE 1F · LIVE      ]  real SPY regime      ║
+║   Signal DNA core     [ PHASE 1F · LIVE      ]  scar_chain reader    ║
+║   Signal DNA full     [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
+║   Pre-Mortem Engine   [ PHASE 1F · LIVE      ]  Claude falsification ║
 ║   Phantom Oracle      [ PHASE 2B · DEFERRED  ]  5-scenario engine    ║
-║   Pre-Mortem Engine   [ PHASE 2B · DEFERRED  ]  falsification gen    ║
 ║   Reflexivity Index   [ PHASE 3A · DEFERRED  ]  Soros feedback       ║
 ║                                                                      ║
 ║   THE GLASS ROOM      [ PHASE 1C · COMPLETE  ]                       ║
@@ -437,6 +447,9 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 ║   PHANTOM   Tail risk · Credit spreads · VIX surface · Kalshi        ║
 ║   WARDEN    Constitutional · Five Laws · REDLINE · Absolute kill     ║
 ║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
+║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ║
+║   PHANTOM   Post-conviction · Classified emergent assertion          ║
+║   SYNTHESIS Reads eight verdict vectors · Sealed · DEC-026           ║
 ║                                                                      ║
 ║   Constitutional Layer  [ PHASE 1D · COMPLETE ]                      ║
 ║   VAE Certificate       [ PHASE 1E · COMPLETE ]                      ║
@@ -541,10 +554,14 @@ PHASE 1B   ████████████  COMPLETE   Schema + Crypto Chai
 PHASE 1C   ████████████  COMPLETE   Glass Room Core             31 tests
 PHASE 1D   ████████████  COMPLETE   Constitutional Layer        34 tests
 PHASE 1E   ████████████  COMPLETE   Decision Package + VAE      64 tests
-PHASE 1F   ░░░░░░░░░░░░  QUEUED     Full Operator Interface
+PHASE 1F   ▓▓▓▓▓▓░░░░░░  ACTIVE     Full Operator Interface
+                                   + RegimeDetector (live)
+                                   + Signal DNA core (live)
+                                   + Pre-Mortem Engine (live)
+                                   + PHANTOM SYNTHESIS (live · DEC-026)
 
-PHASE 2A  ░░░░░░░░░░░░  DEFERRED   Signal DNA + Reference Layer (12 sources)
-PHASE 2B  ░░░░░░░░░░░░  DEFERRED   Phantom Oracle + Pre-Mortem Engine
+PHASE 2A  ░░░░░░░░░░░░  DEFERRED   Signal DNA full (11-dim) + Reference Layer
+PHASE 2B  ░░░░░░░░░░░░  DEFERRED   Phantom Oracle (5-scenario engine)
 PHASE 2C  ░░░░░░░░░░░░  DEFERRED   Performance Ledger + Glass Room Calibration
 PHASE 2D  ░░░░░░░░░░░░  DEFERRED   Lattice Node (hardware edge layer)
 
@@ -664,7 +681,7 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 *Classification: Internal — Engineering*
 
 
-Phase 0 complete. Phase 1A active.
+Phases 0 through 1E complete. Phase 1F active.
 The document operating system exists before the code.
 The architecture is specified before the implementation.
 The constitution is written before the first trade.
