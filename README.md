@@ -755,15 +755,9 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 
 <div align="center">
 
-**PEAR Intelligence Systems**
+**PEAR Intelligence Systems · SPECTRE Inetlligence Systems**
 
 *Classification: Internal — Engineering*
-
-
-Phases 0 through 1F and Phase 2E complete.
-The document operating system exists before the code.
-The architecture is specified before the implementation.
-The constitution is written before the first trade.
 
 OBSIDIAN is not a product. It is infrastructure.
 The kind that compounds.
