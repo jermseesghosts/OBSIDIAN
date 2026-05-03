@@ -406,6 +406,50 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 
 ---
 
+## KITT — The Operator Terminal
+
+KITT is the command interface. Every interaction between the operator and OBSIDIAN runs through it. Not a dashboard. A terminal — built for speed, precision, and zero ambiguity under pressure.
+
+Two visual languages. Distinct by function.
+
+**Intelligence cards** (Palantir aesthetic) — for analysis, surveillance, and situational awareness. Structured. Sourced. Declarative. Every field traces to a live data source.
+
+**Execution cards** (Anduril aesthetic) — for weapons-grade decisions. Entry, stop, target, size, authorization status. The format changes when capital is at risk.
+
+```
+◆ $NVDA — FLOW INTELLIGENCE                          [WARNING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  FLOW       $1.8M net call · 4 sweeps · 90 min
+  DARK POOL  $34M · $891.40 · 38,200 shares
+  GEX        +$2.3B above flip · Wall $910 · Void $875
+  REGIME     BULL TREND · Day 6
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ /thesis NVDA · /size NVDA · /lockon NVDA
+
+
+◈ $NVDA — EXECUTION ORDER                           [EXECUTE]
+══════════════════════════════════════════════════════════════
+  ENTRY      $892.50  (stop_limit)
+  STOP       $871.00  −2.4%
+  TARGET     $944.00  +5.8%
+  R          2.4×
+  SIZE       142 shares · $126,735 · 4.1% of book
+══════════════════════════════════════════════════════════════
+⚡ /authorize PKG-20260501-001
+```
+
+**30+ operator commands.** Two categories.
+
+*Intelligence:* `/flow` `/dark` `/gex` `/regime` `/thesis` `/book` `/health` `/glass` `/council` `/streak` `/size` `/pdt` `/snap` `/history` `/lockon` `/lockoff`
+
+*Execution:* `/authorize` `/pass` `/take` `/stop` `/lock` `/trail` `/partial` `/hold` `/add` `/cancel` `/pause` `/resume` `/auto-breakeven` `/setzone` `/reset`
+
+**KITTWatcher** — proactive book surveillance running continuously in the background. KITT does not wait to be asked. When an open position has an unprotected gain above 1R with no stop tightened, it flags it. When a position is approaching a loss threshold with no action taken, it escalates. Surveillance without polling. Precision without noise.
+
+**Target acquisition** — `/lockon TICKER` puts a ticker under active surveillance: adds it to the OBSIDIAN watchlist, pulls live price, day change, and UW options flow bias. `/lockoff TICKER` releases it. The operator decides what OBSIDIAN watches. KITT tracks it.
+
+---
+
 ## The Intelligence Stack
 
 ```
@@ -554,12 +598,8 @@ PHASE 1B   ████████████  COMPLETE   Schema + Crypto Chai
 PHASE 1C   ████████████  COMPLETE   Glass Room Core             31 tests
 PHASE 1D   ████████████  COMPLETE   Constitutional Layer        34 tests
 PHASE 1E   ████████████  COMPLETE   Decision Package + VAE      64 tests
-PHASE 1F   ▓▓▓▓▓▓░░░░░░  ACTIVE     Full Operator Interface
-                                   + RegimeDetector (live)
-                                   + Signal DNA core (live)
-                                   + Pre-Mortem Engine (live)
-                                   + PHANTOM SYNTHESIS (live · DEC-026)
-
+PHASE 1F   ████████████  COMPLETE   Full Operator Interface     51 tests
+                            
 PHASE 2A  ░░░░░░░░░░░░  DEFERRED   Signal DNA full (11-dim) + Reference Layer
 PHASE 2B  ░░░░░░░░░░░░  DEFERRED   Phantom Oracle (5-scenario engine)
 PHASE 2C  ░░░░░░░░░░░░  DEFERRED   Performance Ledger + Glass Room Calibration
@@ -574,9 +614,9 @@ Each phase has defined pre-conditions, a capability cluster, mandatory named tes
 
 **Phase 0 is complete.** Eleven founding documents written before a single line of operational code. The architecture is specified before the implementation exists. Bones before muscles.
 
-**Phases 1A through 1E are complete.** The sensor mesh ingests. The Glass Room deliberates. The Constitutional Layer enforces. OBSIDIAN speaks. 200 tests passing.
+**Phases 1A through 1F are complete.** The sensor mesh ingests. The Glass Room deliberates. The Constitutional Layer enforces. OBSIDIAN speaks. 200 tests passing.
 
-**Phase 1F is next.** Full operator interface, all 42 message types, position lifecycle monitoring, and Alpaca order routing. OBSIDIAN becomes a complete paper trading intelligence system at Phase 1F exit.
+**Phase 1F is complete.** Full operator interface, all 42 message types, position lifecycle monitoring, and Alpaca order routing. OBSIDIAN becomes a complete paper trading intelligence system at Phase 1F exit.
 
 ---
 
