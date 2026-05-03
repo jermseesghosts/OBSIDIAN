@@ -406,15 +406,15 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 
 ---
 
-## KITT — The Operator Terminal
+## KITT — The Operator Terminal (Kinetic Intelligence Tactical Terminal)
 
 KITT is the command interface. Every interaction between the operator and OBSIDIAN runs through it. Not a dashboard. A terminal — built for speed, precision, and zero ambiguity under pressure.
 
 Two visual languages. Distinct by function.
 
-**Intelligence cards** — for analysis, surveillance, and situational awareness. Structured. Sourced. Declarative. Every field traces to a live data source.
+**Intelligence cards** (Palantir aesthetic) — for analysis, surveillance, and situational awareness. Structured. Sourced. Declarative. Every field traces to a live data source.
 
-**Execution cards** — for weapons-grade decisions. Entry, stop, target, size, authorization status. The format changes when capital is at risk.
+**Execution cards** (Anduril aesthetic) — for weapons-grade decisions. Entry, stop, target, size, authorization status. The format changes when capital is at risk.
 
 ```
 ◆ $NVDA — FLOW INTELLIGENCE                          [WARNING]
@@ -716,7 +716,7 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 
 <div align="center">
 
-**PEAR Intelligence Systems**
+**PEAR Intelligence Systems · SPECTRE Intelligence Syatems**
 
 *Classification: Internal — Engineering*
 
