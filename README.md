@@ -412,9 +412,9 @@ KITT is the command interface. Every interaction between the operator and OBSIDI
 
 Two visual languages. Distinct by function.
 
-**Intelligence cards** (Palantir aesthetic) — for analysis, surveillance, and situational awareness. Structured. Sourced. Declarative. Every field traces to a live data source.
+**Intelligence cards** — for analysis, surveillance, and situational awareness. Structured. Sourced. Declarative. Every field traces to a live data source.
 
-**Execution cards** (Anduril aesthetic) — for weapons-grade decisions. Entry, stop, target, size, authorization status. The format changes when capital is at risk.
+**Execution cards** — for weapons-grade decisions. Entry, stop, target, size, authorization status. The format changes when capital is at risk.
 
 ```
 ◆ $NVDA — FLOW INTELLIGENCE                          [WARNING]
