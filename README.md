@@ -67,6 +67,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │               Real-time intelligence at the edge                │
 │                                                                 │
 │  Core:       Unusual Whales · Polygon · Alpaca · GEX Engine     │
+│              Polymarket (macro crowd consensus · Phase 1A)       │
 │  Reference:  Finnhub · FMP · FRED · Quiver · CBOE               │
 │              Kalshi · SEC EDGAR · FINRA · BLS                   │
 │                                                                 │
@@ -81,6 +82,9 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │               Structured reasoning at depth                     │
 │                                                                 │
 │  Thesis Formation · Signal DNA · Phantom Oracle                 │
+│  Evidence Accumulation · Signal Freshness Decay                 │
+│  Trash-Chart Gate · Conviction Tier Audit                       │
+│  Deliberation Variance Score · Decision Reflection Loop         │
 │  Glass Room deliberation · Constitutional Layer                 │
 │  Pre-Mortem Engine · Reflexivity Index · ARBITER                │
 │                                                                 │
@@ -117,7 +121,7 @@ Every thesis that reaches conviction has survived eight independent analytical l
 | **AXIOM** | Statistical edge. Operates Signal DNA — 11-dimensional historical fingerprint matching. No edge, no trade. | — |
 | **REFLEX** | Second-order effects. Soros-style reflexivity detection — buildup, acceleration, and exhaustion phases. | — |
 | **SPECTER** | Adversarial intelligence. Sole mandate: find the reason this trade is wrong. NO carries 1.5× weight. | 1.5× dissent |
-| **PHANTOM** | Tail risk. VIX term structure, credit spreads, cross-asset pressure, prediction market probabilities. | — |
+| **PHANTOM** | Tail risk. VIX term structure, credit spreads, cross-asset pressure, Polymarket macro consensus. | — |
 | **WARDEN** | Constitutional officer. Enforces the Five Laws. Issues REDLINEs. | **Absolute kill** |
 | **ARBITER** | Synthesis only. Does not vote. Produces the conviction score and assembles the Decision Package. | — |
 
@@ -476,8 +480,14 @@ Two visual languages. Distinct by function.
 ║   Thesis Formation    [ PHASE 1C · COMPLETE  ]                       ║
 ║   RegimeDetector      [ PHASE 1F · LIVE      ]  real SPY regime      ║
 ║   Signal DNA core     [ PHASE 1F · LIVE      ]  scar_chain reader    ║
-║   Signal DNA full     [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
+║   Evidence Accum.     [ PHASE 1F · LIVE      ]  multi-session weight ║
+║   Freshness Decay     [ PHASE 1F · LIVE      ]  time-conditioned TW  ║
+║   Trash-Chart Gate    [ PHASE 1F · LIVE      ]  pre-deliberation QC  ║
+║   Conviction Tier     [ PHASE 1F · LIVE      ]  STRONG/STD/MARGINAL  ║
+║   Delib. Variance     [ PHASE 1F · LIVE      ]  council spread score ║
+║   Reflection Loop     [ PHASE 1F · LIVE      ]  post-close priors    ║
 ║   Pre-Mortem Engine   [ PHASE 1F · LIVE      ]  Claude falsification ║
+║   Signal DNA full     [ PHASE 2A · DEFERRED  ]  11-dim fingerprint   ║
 ║   Phantom Oracle      [ PHASE 2B · DEFERRED  ]  5-scenario engine    ║
 ║   Reflexivity Index   [ PHASE 3A · DEFERRED  ]  Soros feedback       ║
 ║                                                                      ║
@@ -504,21 +514,22 @@ Two visual languages. Distinct by function.
 ║                                                                      ║
 ║   LAYER 1 — SENSOR MESH                                              ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   PHASE 1A · CORE (trust weight 0.68)                                ║
+║   PHASE 1A · CORE (trust weight 0.76)                                ║
 ║                                                                      ║
 ║   Unusual Whales   0.25   Options flow · Dark pool · Market tide     ║
 ║   Polygon.io       0.20   OHLCV · Quotes · Options chain · Ref data  ║
 ║   Alpaca Markets   0.13   Book state · Positions · Orders            ║
 ║   GEX Engine       0.10   Gamma surface · Flip point · Voids/walls   ║
+║   Polymarket       0.08   Macro crowd consensus · WARDEN context     ║
 ║                                                                      ║
-║   PHASE 2A · REFERENCE LAYER (trust weight 0.32)                     ║
+║   PHASE 2A · REFERENCE LAYER (trust weight 0.24)                     ║
 ║                                                                      ║
-║   Finnhub          0.07   News sentiment · Insider transactions      ║
-║   FMP              0.06   Earnings calendar · 13F institutional      ║
-║   FRED             0.06   Credit spreads · Yield curve · Macro       ║
-║   Quiver Quant     0.05   Congressional trading · Short interest     ║
-║   CBOE             0.04   VVIX · SKEW · VIX term structure           ║
-║   Kalshi           0.03   Prediction market probabilities            ║
+║   Finnhub          0.06   News sentiment · Insider transactions      ║
+║   FMP              0.05   Earnings calendar · 13F institutional      ║
+║   FRED             0.05   Credit spreads · Yield curve · Macro       ║
+║   Quiver Quant     0.04   Congressional trading · Short interest     ║
+║   CBOE             0.02   VVIX · SKEW · VIX term structure           ║
+║   Kalshi           0.01   CFTC-regulated prediction markets          ║
 ║   SEC EDGAR        0.01   Real-time 8-K · Form 4 insider             ║
 ║   BLS Calendar     0.00   Macro release schedule                     ║
 ║                                                                      ║
@@ -627,7 +638,7 @@ OBSIDIAN is governed by eleven founding documents. Every build session reads the
 ```
 CLAUDE.md                  Four governing axioms. The mission. The posture.
 ARCHITECTURE.md            Three layers. Eight invariants. Five Laws. Glass Room.
-DATA_SOURCES.md            Twelve source contracts. Trust weights. Failure modes.
+DATA_SOURCES.md            Thirteen source contracts. Trust weights. Failure modes.
 DECISIONS.md               Every architectural decision. Append-only. Permanent.
 GLOSSARY.md                One term, one definition. No synonyms tolerated.
 PROJECTS.md                Phase registry. Exit criteria. Forensic demonstrations.
@@ -721,7 +732,7 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 *Classification: Internal — Engineering*
 
 
-Phases 0 through 1E complete. Phase 1F active.
+Phases 0 through 1F complete.
 The document operating system exists before the code.
 The architecture is specified before the implementation.
 The constitution is written before the first trade.
