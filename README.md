@@ -447,7 +447,7 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 ║   PHANTOM   Tail risk · Credit spreads · VIX surface · Kalshi        ║
 ║   WARDEN    Constitutional · Five Laws · REDLINE · Absolute kill     ║
 ║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
-║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ║
+║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
 ║   PHANTOM   Post-conviction · Classified emergent assertion          ║
 ║   SYNTHESIS Reads eight verdict vectors · Sealed · DEC-026           ║
 ║                                                                      ║
