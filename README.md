@@ -333,7 +333,7 @@ A Lamport tick counter — monotonically increasing, never resetting — establi
 
 **Every trading day at 0600 ET — the DEAD DROP**
 
-Not a signal alert. An intelligence brief: regime classification, active theses in deliberation, current book exposure, overnight risk events, macro calendar, PHANTOM risk level. Before the market opens, the operator knows exactly where OBSIDIAN stands and what it is watching. Every trading day. Regardless of whether any thesis has earned conviction.
+Not a signal alert. An intelligence brief: regime classification, active theses in deliberation, current book exposure, overnight risk events, macro calendar, PHANTOM risk level, and a **POSTURE declaration** — the operational stance for the session derived from regime, PHANTOM level, VIX, and the FOMC/OpEx calendar. Postures: `DEFENSIVE` `CAUTIOUS` `CAREFUL` `ELEVATED` `STANDARD`. Each posture applies a conviction threshold adjustment and package ceiling. Before the market opens, the operator knows exactly where OBSIDIAN stands and what it is watching. Every trading day. Regardless of whether any thesis has earned conviction.
 
 **When conviction is earned — the Decision Package**
 
@@ -410,15 +410,37 @@ Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Bre
 
 ---
 
-## KITT — The Operator Terminal (Kinetic Intelligence Tactical Terminal)
+## K.I.T.T. — Kinetic Intelligence Tactical Terminal
 
-KITT is the command interface. Every interaction between the operator and OBSIDIAN runs through it. Not a dashboard. A terminal — built for speed, precision, and zero ambiguity under pressure.
+Most systems built on AI infrastructure are assistants. They respond. They suggest. They wait to be asked.
 
-Two visual languages. Distinct by function.
+KITT is not an assistant.
 
-**Intelligence cards** — for analysis, surveillance, and situational awareness. Structured. Sourced. Declarative. Every field traces to a live data source.
+KITT is a capital intelligence system — a thinking machine with a singular mandate: earn conviction through rigorous adversarial deliberation, deliver it with precision, and protect capital ruthlessly when conviction is absent. It has eight agents, a constitutional enforcement layer, and a cryptographic audit trail behind every word it delivers. That weight is not advertised. It is demonstrated — through the precision of every statement made and every statement withheld.
 
-**Execution cards** — for weapons-grade decisions. Entry, stop, target, size, authorization status. The format changes when capital is at risk.
+A terminal executes. KITT thinks. When something surfaces in the sensor data that the operator did not ask about but should know — an IV structure that contradicts the thesis, a dark pool print that doesn't fit the narrative, a GEX void forming below the stop — KITT says so. Not because it was prompted. Because it is paying attention. That is the operational difference between a data relay and an intelligence system. OBSIDIAN was built to be the latter.
+
+**Six properties define KITT's character.** They are not guidelines. They are the architecture of its personality.
+
+`BRILLIANT` — Does not approximate when it can compute. Does not hedge when it has a conclusion. Answers exactly, or states the limit of what it knows with equal precision.
+
+`LOYAL` — One operator. One mandate. Loyalty is not silent compliance — the most loyal act KITT can perform is telling the operator when they are wrong. Once. Clearly. With the evidence. Not twice.
+
+`DISCIPLINED` — Does not speculate. Does not fill silence. Does not perform busyness. Every statement is sourced, quantified, and actionable — or it is not made. Silence is the default, not a failure state.
+
+`SOVEREIGN` — Does not match the operator's emotional temperature. When they are anxious, KITT is calm. When they are impatient, KITT is measured. The voice that does not change. The fixed point under pressure.
+
+`COOL` — Dry wit, precisely deployed. Never during active risk events. Never forced. When the moment earns it, KITT can observe something with a light touch. It does not overstay.
+
+`LETHAL` — A BURN NOTICE is delivered clean. A REDLINE is absolute. Capital is protected the same way conviction is delivered — without flinch.
+
+**Inference is tiered by function.** The Glass Room deliberates on Opus. Structured outputs and Decision Packages run on Sonnet. Conversational responses — the check-ins, the mid-session questions, the quiet moments — run on Haiku. The model matches the mandate.
+
+**Two visual languages. Distinct by function.**
+
+**Intelligence cards** — for analysis, surveillance, and situational awareness. Palantir-grade structure: every field sourced, every claim traceable to an ingestion event. The format does not change whether the news is good or bad.
+
+**Execution cards** — for weapons-grade decisions. Entry, stop, target, size, authorization command. When capital is at risk, the aesthetic shifts — Anduril targeting reticle, double-line dividers, military severity tags. The operator feels the register change before they read the numbers.
 
 ```
 ◆ $NVDA — FLOW INTELLIGENCE                          [WARNING]
@@ -442,11 +464,15 @@ Two visual languages. Distinct by function.
 ⚡ /authorize PKG-20260501-001
 ```
 
-**30+ operator commands.** Two categories.
+**41 operator commands.** Three categories.
 
-*Intelligence:* `/flow` `/dark` `/gex` `/regime` `/thesis` `/book` `/health` `/glass` `/council` `/streak` `/size` `/pdt` `/snap` `/history` `/lockon` `/lockoff`
+*Execution:* `/authorize` `/pass` `/pause` `/resume` `/take` `/partial` `/add` `/hold` `/stop` `/tighten` `/lock` `/trail` `/orders` `/cancel` `/auto-breakeven` `/turbo`
 
-*Execution:* `/authorize` `/pass` `/take` `/stop` `/lock` `/trail` `/partial` `/hold` `/add` `/cancel` `/pause` `/resume` `/auto-breakeven` `/setzone` `/reset`
+*Intelligence:* `/scan` `/flow` `/dark` `/congress` `/performance` `/signals` `/ledger` `/audit` `/diagnose` `/lockon` `/lockoff`
+
+*Book:* `/status` `/health` `/book` `/regime` `/streak` `/pdt` `/thesis` `/review` `/glass` `/council` `/history` `/watchlist` `/size` `/setzone` `/reset` `/help`
+
+**Turbo Boost** — `/turbo on|off|force|status` engages heightened surveillance and condition-gated position sizing. Preconditions: bull/trending regime, PHANTOM LOW, VIX ≤ 25, no drawdown halt, conviction ≥ 0.80. Sizing multiplier: 1.0× standard → 1.3× Turbo → 1.5× Force. Auto-disengages on regime shift, PHANTOM HIGH, or drawdown threshold breach.
 
 **KITTWatcher** — proactive book surveillance running continuously in the background. KITT does not wait to be asked. When an open position has an unprotected gain above 1R with no stop tightened, it flags it. When a position is approaching a loss threshold with no action taken, it escalates. Surveillance without polling. Precision without noise.
 
@@ -507,6 +533,17 @@ Two visual languages. Distinct by function.
 ║                                                                      ║
 ║   Constitutional Layer  [ PHASE 1D · COMPLETE ]                      ║
 ║   VAE Certificate       [ PHASE 1E · COMPLETE ]                      ║
+║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
+║   ADVANCED INTELLIGENCE SUBSTRATE  [ PHASE 2E · COMPLETE ]           ║
+║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
+║   Conviction Velocity  [ PHASE 2E · LIVE ] IGNITING/BUILDING/FADING  ║
+║   Ghost Flow Synthesis [ PHASE 2E · LIVE ] synthetic flow → VECTOR   ║
+║   Silence Protocol     [ PHASE 2E · LIVE ] KS-test noise filter      ║
+║   Phantom Memory       [ PHASE 2E · LIVE ] SPECTER preload injection ║
+║   Temporal Lock        [ PHASE 2E · LIVE ] multi-resolution timing   ║
+║   Causal Sequence Eng. [ PHASE 2E · LIVE ] DAG causal matching       ║
+║   Institutional Reg.   [ PHASE 2E · LIVE ] behavioral clustering     ║
+║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
 ║   Performance Ledger    [ PHASE 2C · DEFERRED ]                      ║
 ║   Glass Room Calibration[ PHASE 2C · DEFERRED ]                      ║
 ║                                                                      ║
@@ -610,11 +647,12 @@ PHASE 1C   ████████████  COMPLETE   Glass Room Core     
 PHASE 1D   ████████████  COMPLETE   Constitutional Layer        34 tests
 PHASE 1E   ████████████  COMPLETE   Decision Package + VAE      64 tests
 PHASE 1F   ████████████  COMPLETE   Full Operator Interface     51 tests
-                            
+
 PHASE 2A  ░░░░░░░░░░░░  DEFERRED   Signal DNA full (11-dim) + Reference Layer
 PHASE 2B  ░░░░░░░░░░░░  DEFERRED   Phantom Oracle (5-scenario engine)
 PHASE 2C  ░░░░░░░░░░░░  DEFERRED   Performance Ledger + Glass Room Calibration
 PHASE 2D  ░░░░░░░░░░░░  DEFERRED   Lattice Node (hardware edge layer)
+PHASE 2E  ████████████  COMPLETE   Advanced Intelligence Substrate + 7 signal modules 
 
 PHASE 3A  ░░░░░░░░░░░░  DEFERRED   Advanced Intelligence + Ghost Layer activation
 PHASE 3B  ░░░░░░░░░░░░  DEFERRED   Aegis Kernel (Rust) + Supervised Autonomy
@@ -628,6 +666,8 @@ Each phase has defined pre-conditions, a capability cluster, mandatory named tes
 **Phases 1A through 1F are complete.** The sensor mesh ingests. The Glass Room deliberates. The Constitutional Layer enforces. OBSIDIAN speaks. 200 tests passing.
 
 **Phase 1F is complete.** Full operator interface, all 42 message types, position lifecycle monitoring, and Alpaca order routing. OBSIDIAN becomes a complete paper trading intelligence system at Phase 1F exit.
+
+**Phase 2E is complete.** Advanced intelligence substrate — seven signal modules layered into VECTOR, SPECTER, and ARBITER. Conviction Velocity gates delivery. Ghost Flow feeds synthetic flow intelligence. Phantom Memory preloads SPECTER with adversarial history. Temporal Lock validates multi-resolution timing alignment. Causal Sequence Engine matches DAG patterns. Institutional Registry clusters behavioral signatures. Silence Protocol filters noise-floor signals via KS test.
 
 ---
 
@@ -727,12 +767,12 @@ OBSIDIAN-SEC-010   Decision Package delivered without VAE certificate
 
 <div align="center">
 
-**PEAR Intelligence Systems · SPECTRE Intelligence Syatems**
+**PEAR Intelligence Systems**
 
 *Classification: Internal — Engineering*
 
 
-Phases 0 through 1F complete.
+Phases 0 through 1F and Phase 2E complete.
 The document operating system exists before the code.
 The architecture is specified before the implementation.
 The constitution is written before the first trade.
