@@ -67,7 +67,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │               Real-time intelligence at the edge                │
 │                                                                 │
 │  Core:       Unusual Whales · Polygon · Alpaca · GEX Engine     │
-│              Polymarket (macro crowd consensus · Phase 1A)       │
+│              Polymarket (macro crowd consensus · Phase 1A)      │
 │  Reference:  Finnhub · FMP · FRED · Quiver · CBOE               │
 │              Kalshi · SEC EDGAR · FINRA · BLS                   │
 │                                                                 │
