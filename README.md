@@ -524,12 +524,10 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 ║   AXIOM     Statistical edge · Signal DNA · Win rate · Expectancy    ║
 ║   REFLEX    Second-order effects · Reflexivity · Exhaustion          ║
 ║   SPECTER   Adversarial · Falsification · 1.5× dissent weight        ║
-║   PHANTOM   Tail risk · Credit spreads · VIX surface · Polymarket    ║
+║   PHANTOM   Tail risk · VIX surface · Post-conviction synthesis      ║
 ║   WARDEN    Constitutional · Five Laws · REDLINE · Absolute kill     ║
 ║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
-║   PHANTOM   Post-conviction · Classified emergent assertion          ║
-║   SYNTHESIS Reads eight verdict vectors · Sealed · DEC-026           ║
-║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
+║                                                                      ║
 ║   Constitutional Layer  [ PHASE 1D · COMPLETE ]                      ║
 ║   VAE Certificate       [ PHASE 1E · COMPLETE ]                      ║
 ║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
@@ -543,8 +541,8 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 ║   Causal Sequence Eng. [ PHASE 2E · LIVE ] DAG causal matching       ║
 ║   Institutional Reg.   [ PHASE 2E · LIVE ] behavioral clustering     ║
 ║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
-║   Performance Ledger    [ PHASE 2C · DEFERRED ]                      ║
-║   Glass Room Calibration[ PHASE 2C · DEFERRED ]                      ║
+║   Performance Ledger      [ PHASE 2C · DEFERRED ]                    ║
+║   Glass Room Calibration  [ PHASE 2C · DEFERRED ]                    ║
 ║                                                                      ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║                                                                      ║
@@ -595,7 +593,7 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 ║   GL-004  Aegis Kernel (Rust)               [ PHASE 3B · DEFERRED ]  ║
 ║   GL-005  LOOKING GLASS                     [ PHASE 2A · DEFERRED ]  ║
 ║                                                                      ║
-║                   VEIL.md · ARBITER CLEARANCE REQUIRED               ║
+║                   ARBITER CLEARANCE REQUIRED                         ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║             FOUR-CHAIN CRYPTOGRAPHIC AUDIT ARCHITECTURE              ║
 ║      Deed Chain · Witness Chain · Scar Chain · Constitutional Chain  ║
@@ -613,49 +611,69 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 
 Every language earns its place. The rule is not "use these languages." The rule is: use the language that makes the system faster, safer, or more correct for that specific layer. When in doubt, record the decision in DECISIONS.md.
 
-Twelve intelligence capabilities are fully specified and architecturally designed — but not yet built, because the data conditions for building them correctly do not yet exist.
+## PROGRAMME OF RECORD
 
-This is not backlog. This is architecture.
+Twelve capabilities fully specified, architecturally designed, and held in reserve. Not backlog. Each has a formal trigger condition — a data threshold that must be met before the capability can be built correctly. A system built before its data conditions are met is not intelligent. It is confidently wrong.
 
-A self-improving weight engine built before 500 closed positions is not intelligent. It is pattern-matching noise. A wound taxonomy system built before 100 classified losses has no wounds to learn from. The trigger conditions are not obstacles to capability. They are the capability. A system built before its data conditions are met is not intelligent. It is confidently wrong.
+**BONBON** — *Statistical Learning Foundation*
 
-| Capability | Trigger Condition |
+| Capability | Trigger |
 |---|---|
 | Self-Improving Weight Engine | n ≥ 500 closed positions |
 | Conviction Confluence Multiplier | n ≥ 50 per source-tag combination |
 | Adaptive Regime-Aware Weights | n ≥ 100 closed positions, 10+ per regime |
+
+**CARAMEL** — *Loss Intelligence Layer*
+
+| Capability | Trigger |
+|---|---|
 | Wound Taxonomy Engine | n ≥ 100 classified losses |
 | Morphic Resonance Detector | n ≥ 50 wound taxonomy entries |
+| Phantom Reversal Flag | Adversarial oracle rate > 20% / 30 days |
+
+**ÉCLAIR** — *Pattern Archaeology & Self-Knowledge*
+
+| Capability | Trigger |
+|---|---|
 | Pattern Archaeology | n ≥ 400 resolved theses, 90+ days |
-| Phantom Reversal Flag | Adversarial oracle rate > 20% over 30 days |
 | System Self-Portrait | All prior DI modules stable ≥ 30 days |
+| LOOKING GLASS Full | Signal DNA archive ≥ Phase 2A |
+
+**GANACHE** — *Classified Adversarial Systems*
+
+| Capability | Trigger |
+|---|---|
 | Mirror Court | DECISIONS.md entry + DI trigger |
 | Recursive NIGHTMARE | Mirror Court stable ≥ 30 days |
 | Aegis Kernel (Rust) | Phase 3B authorization + DECISIONS.md |
-| LOOKING GLASS Full | Signal DNA archive ≥ Phase 2A |
 
 ---
 
 ## The Build Sequence
 
 ```
+           CUPCAKE
 PHASE 0    ████████████  COMPLETE   Document OS
-PHASE 1A   ████████████  COMPLETE   Sensor Mesh + UW Gap Pass   43 tests
-PHASE 1B   ████████████  COMPLETE   Schema + Crypto Chains      38 tests
-PHASE 1C   ████████████  COMPLETE   Glass Room Core             31 tests
-PHASE 1D   ████████████  COMPLETE   Constitutional Layer        34 tests
-PHASE 1E   ████████████  COMPLETE   Decision Package + VAE      64 tests
-PHASE 1F   ████████████  COMPLETE   Full Operator Interface     51 tests
 
-PHASE 2A  ░░░░░░░░░░░░  DEFERRED   Signal DNA full (11-dim) + Reference Layer
-PHASE 2B  ░░░░░░░░░░░░  DEFERRED   Phantom Oracle (5-scenario engine)
-PHASE 2C  ░░░░░░░░░░░░  DEFERRED   Performance Ledger + Glass Room Calibration
-PHASE 2D  ░░░░░░░░░░░░  DEFERRED   Lattice Node (hardware edge layer)
-PHASE 2E  ████████████  COMPLETE   Advanced Intelligence Substrate + 7 signal modules 
+PHASE 1    DONUT
+  1A       ████████████  COMPLETE   Sensor Mesh + UW Gap Pass   43 tests
+  1B       ████████████  COMPLETE   Schema + Crypto Chains      38 tests
+  1C       ████████████  COMPLETE   Glass Room Core             31 tests
+  1D       ████████████  COMPLETE   Constitutional Layer        34 tests
+  1E       ████████████  COMPLETE   Decision Package + VAE      64 tests
+  1F       ████████████  COMPLETE   Full Operator Interface     51 tests
 
-PHASE 3A  ░░░░░░░░░░░░  DEFERRED   Advanced Intelligence + Ghost Layer activation
-PHASE 3B  ░░░░░░░░░░░░  DEFERRED   Aegis Kernel (Rust) + Supervised Autonomy
-                                   Both require DECISIONS.md entries.
+PHASE 2    ECLAIR
+  2A       ░░░░░░░░░░░░  DEFERRED   Signal DNA full (11-dim) + Reference Layer
+  2B       ░░░░░░░░░░░░  DEFERRED   Phantom Oracle (5-scenario engine)
+  2C       ░░░░░░░░░░░░  DEFERRED   Performance Ledger + Glass Room Calibration
+  2D       ░░░░░░░░░░░░  DEFERRED   Lattice Node (hardware edge layer)
+  2E       ████████████  COMPLETE   Advanced Intelligence Substrate + 7 signal modules
+
+PHASE 3    FROYO
+  3A       ░░░░░░░░░░░░  DEFERRED   Advanced Intelligence + Ghost Layer activation
+  3B       ░░░░░░░░░░░░  DEFERRED   Aegis Kernel (Rust) + Supervised Autonomy
+                                    Both require DECISIONS.md entries.
 ```
 
 Each phase has defined pre-conditions, a capability cluster, mandatory named tests, exit criteria, and forensic demonstrations required before the next phase is authorized. A phase is COMPLETE or IN PROGRESS. Nothing in between.
