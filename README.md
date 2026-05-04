@@ -99,7 +99,7 @@ OBSIDIAN is organized in three layers, each with a defined mandate and a formal 
 │                  LAYER 3 · COMMAND AUTHORITY                    │
 │              Operator interface and execution                   │
 │                                                                 │
-│  42 message types · Telegram · Authorization · Alpaca           │
+│  48 message types · Telegram · Authorization · Alpaca           │
 │  DEAD DROP 0600 · NIGHT WATCH 1600 · BURN NOTICE                │
 │  REDLINE Protocol · Portfolio Health · VAE Certificate          │
 │                                                                 │
@@ -404,7 +404,7 @@ Maximum 5 Decision Packages per trading day. This is a hard architectural ceilin
 
 Real-time falsification condition monitoring for every open position. The moment a specific, measurable falsification condition is met — not when price moves against, but when the evidence that proves the thesis wrong is detected — the BURN NOTICE fires immediately. Not batched. Not delayed. The operator is notified before the next candle closes.
 
-**When the book needs context — 42 message types**
+**When the book needs context — 48 message types**
 
 Stop Approach. Milestone. Thesis Drift. Take Profit. Scale In. Stop Tighten. Break Even. Overnight Gap. Regime Shift. VIX Spike. REDLINE. Drawdown Halt. Every operator-facing communication has a locked format, a severity classification, and a canary test that runs before delivery. A message that fails the canary is not delivered.
 
@@ -452,17 +452,29 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 ⚡ /authorize PKG-20260501-001
 ```
 
-**41 operator commands.** Three categories.
+**43 operator commands.** Three categories.
 
-*Execution:* `/authorize` `/pass` `/pause` `/resume` `/take` `/partial` `/add` `/hold` `/stop` `/tighten` `/lock` `/trail` `/orders` `/cancel` `/auto-breakeven` `/turbo`
+*Execution:* `/authorize` `/pass` `/pause` `/resume` `/take` `/partial` `/add` `/hold` `/stop` `/tighten` `/lock` `/trail` `/orders` `/cancel` `/auto-breakeven` `/turbo` `/silent`
 
-*Intelligence:* `/scan` `/flow` `/dark` `/congress` `/performance` `/signals` `/ledger` `/audit` `/diagnose` `/lockon` `/lockoff`
+*Intelligence:* `/scan` `/lookahead` `/flow` `/dark` `/congress` `/performance` `/signals` `/ledger` `/audit` `/diagnose` `/lockon` `/lockoff`
 
 *Book:* `/status` `/health` `/book` `/regime` `/streak` `/pdt` `/thesis` `/review` `/glass` `/council` `/history` `/watchlist` `/size` `/setzone` `/reset` `/help`
 
 **Turbo Boost** — `/turbo on|off|force|status` engages heightened surveillance and condition-gated position sizing. Preconditions: bull/trending regime, PHANTOM LOW, VIX ≤ 25, no drawdown halt, conviction ≥ 0.80. Sizing multiplier: 1.0× standard → 1.3× Turbo → 1.5× Force. Auto-disengages on regime shift, PHANTOM HIGH, or drawdown threshold breach.
 
 **KITTWatcher** — proactive book surveillance running continuously in the background. KITT does not wait to be asked. When an open position has an unprotected gain above 1R with no stop tightened, it flags it. When a position is approaching a loss threshold with no action taken, it escalates. Surveillance without polling. Precision without noise.
+
+**Silent Mode** — `/silent on|off|status` suppresses all proactive KITTWatcher and KITTNarrator commentary when the operator needs to operate without background intelligence. Constitutional events — BURN NOTICE, REDLINE, DRAWDOWN HALT, DEAD DROP — are never silenced. The architecture distinguishes between commentary the operator can opt out of and warnings the operator cannot.
+
+**Long Range Scan** — `/lookahead` delivers a forward intelligence brief without inference: current regime and POSTURE, days to next OpEx, days to next FOMC, session duration, and VIX level. No Claude call. No latency. Pure structured read from MissionClock and StateManager. Available any time, any session state.
+
+**Memory Core** — before every Glass Room deliberation opens on a detected thesis, KITT queries the Scar Chain for prior closed trades on that ticker. If history exists, it surfaces a formatted card: outcome, realized R, entry and exit prices, whether SPECTER dissented going into the trade. The operator sees the institutional memory before the council votes.
+
+**Scanner Active** — a single pre-message fires the moment a thesis is detected and deliberation is about to open. Not a status update. A signal that KITT has acquired a target and is engaging the Glass Room. The operator knows before the conviction score arrives.
+
+**Damage Report** — within 60 seconds of any LOSS or SCRATCH close, after the Scar Chain Debrief, KITT delivers a one-paragraph recalibration message. Honest. Specific. Forward-looking. What happened, what it means for the current session, what to watch next. Non-fatal — if the LLM is unavailable, the debrief still fires.
+
+**Operator awareness** — KITT tracks session state: rapid losses, session duration, and power-hour stress conditions. When the pattern warrants it, KITT speaks — once per class, per session. Not to intervene. To observe. The distinction between surveillance and intrusion is discipline, and KITT maintains it.
 
 **Target acquisition** — `/lockon TICKER` puts a ticker under active surveillance: adds it to the OBSIDIAN watchlist, pulls live price, day change, and UW options flow bias. `/lockoff TICKER` releases it. The operator decides what OBSIDIAN watches. KITT tracks it.
 
@@ -477,7 +489,7 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 ║                                                                      ║
 ║   LAYER 3 — COMMAND AUTHORITY                                        ║
 ║   ─────────────────────────────────────────────────────────────────  ║
-║   42 Message Types       Telegram Bot API        Operator Channel    ║
+║   48 Message Types       Telegram Bot API        Operator Channel    ║
 ║   DEAD DROP 0600         NIGHT WATCH 1600        Decision Packages   ║
 ║   BURN NOTICE            REDLINE Protocol        Portfolio Health    ║
 ║   Drawdown Halt          VIX Spike Alert         Regime Shift        ║
@@ -671,7 +683,7 @@ DECISIONS.md               Every architectural decision. Append-only. Permanent.
 GLOSSARY.md                One term, one definition. No synonyms tolerated.
 PROJECTS.md                Phase registry. Exit criteria. Forensic demonstrations.
 ENGINEERING_STANDARD.md    Code standards. Naming registry. Session discipline.
-COMMUNICATION_CONTRACT.md  42 message types. Locked formats. Canary tests.
+COMMUNICATION_CONTRACT.md  48 message types. Locked formats. Canary tests.
 DEFERRED_INTELLIGENCE.md   Twelve queued capabilities. Trigger conditions.
 VEIL.md                    Ghost Layer doctrine. ARBITER clearance only.
 README.md                  This document.
