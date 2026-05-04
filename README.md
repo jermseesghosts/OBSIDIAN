@@ -527,10 +527,9 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 ║   PHANTOM   Tail risk · Credit spreads · VIX surface · Polymarket    ║
 ║   WARDEN    Constitutional · Five Laws · REDLINE · Absolute kill     ║
 ║   ARBITER   Synthesis only · Conviction score · Decision Package     ║
-║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
 ║   PHANTOM   Post-conviction · Classified emergent assertion          ║
 ║   SYNTHESIS Reads eight verdict vectors · Sealed · DEC-026           ║
-║                                                                      ║
+║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
 ║   Constitutional Layer  [ PHASE 1D · COMPLETE ]                      ║
 ║   VAE Certificate       [ PHASE 1E · COMPLETE ]                      ║
 ║   ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─  ─      ║
