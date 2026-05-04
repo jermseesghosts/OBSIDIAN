@@ -462,9 +462,9 @@ A terminal executes. KITT thinks. When something surfaces in the sensor data tha
 
 **Turbo Boost** — `/turbo on|off|force|status` engages heightened surveillance and condition-gated position sizing. Preconditions: bull/trending regime, PHANTOM LOW, VIX ≤ 25, no drawdown halt, conviction ≥ 0.80. Sizing multiplier: 1.0× standard → 1.3× Turbo → 1.5× Force. Auto-disengages on regime shift, PHANTOM HIGH, or drawdown threshold breach.
 
-**KITTWatcher** — proactive book surveillance running continuously in the background. KITT does not wait to be asked. When an open position has an unprotected gain above 1R with no stop tightened, it flags it. When a position is approaching a loss threshold with no action taken, it escalates. Surveillance without polling. Precision without noise.
+**Surveillance Mode** — proactive book surveillance running continuously in the background. KITT does not wait to be asked. When an open position has an unprotected gain above 1R with no stop tightened, it flags it. When a position is approaching a loss threshold with no action taken, it escalates. Surveillance without polling. Precision without noise.
 
-**Silent Mode** — `/silent on|off|status` suppresses all proactive KITTWatcher and KITTNarrator commentary when the operator needs to operate without background intelligence. Constitutional events — BURN NOTICE, REDLINE, DRAWDOWN HALT, DEAD DROP — are never silenced. The architecture distinguishes between commentary the operator can opt out of and warnings the operator cannot.
+**Silent Mode** — `/silent on|off|status` suppresses all proactive Surveillance Mode and KITTNarrator commentary when the operator needs to operate without background intelligence. Constitutional events — BURN NOTICE, REDLINE, DRAWDOWN HALT, DEAD DROP — are never silenced. The architecture distinguishes between commentary the operator can opt out of and warnings the operator cannot.
 
 **Long Range Scan** — `/lookahead` delivers a forward intelligence brief without inference: current regime and POSTURE, days to next OpEx, days to next FOMC, session duration, and VIX level. No Claude call. No latency. Pure structured read from MissionClock and StateManager. Available any time, any session state.
 
